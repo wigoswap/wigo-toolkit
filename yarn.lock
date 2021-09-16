@@ -5221,20 +5221,6 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
-"@wigoswap/eslint-config-wigo@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@wigoswap/eslint-config-wigo/-/eslint-config-wigo-1.0.1.tgz#b2370b9aa71ab79fe22d93eacab2db46903d6f16"
-  integrity sha512-/JTPk7MYTZufdBPDQ3tvlyBixFwFljVHnlHzzUkDIZApXfRKbZtKWgZ0KRZ0w4QDqtF1TpTf0kXDqXDZdNWObg==
-  dependencies:
-    "@typescript-eslint/eslint-plugin" "^4.7.0"
-    "@typescript-eslint/parser" "^4.7.0"
-    eslint-config-airbnb "^18.2.1"
-    eslint-config-prettier "^6.15.0"
-    eslint-plugin-import "^2.22.1"
-    eslint-plugin-jsx-a11y "^6.4.1"
-    eslint-plugin-react "^7.21.5"
-    eslint-plugin-react-hooks "^4.0.0"
-
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"

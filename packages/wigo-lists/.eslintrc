@@ -10,7 +10,7 @@
     "es6": true,
     "jest": true
   },
-  "extends": "@wigoswap/eslint-config-wigo",
+  "extends": "@wigoswap/wigo-eslint",
   "rules": {
     "no-console": ["warn", { "allow": ["info", "warn", "error"] }]
   }

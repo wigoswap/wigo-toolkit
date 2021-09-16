@@ -1,5 +1,5 @@
 {
-  "extends": "@wigoswap/eslint-config-wigo",
+  "extends": "@wigoswap/wigo-eslint",
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",
