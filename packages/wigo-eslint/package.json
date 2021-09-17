@@ -1,5 +1,5 @@
 {
-  "name": "@wigoswap/wigo-eslint",
+  "name": "@wigoswap/eslint-config-wigo",
   "version": "1.0.2",
   "description": "Eslint config for Wigoswap",
   "main": "lib/index.js",
@@ -8,7 +8,6 @@
   ],
   "repository": "https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-eslint",
   "license": "MIT",
-  "author": "RabbitDoge",
   "private": false,
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.7.0",
