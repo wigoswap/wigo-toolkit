@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import WIcon from "./WIcon";
+import PanIcon from "./WIcon";
 import WigoIcon from "./WigoIcon";
 import { SpinnerProps } from "./types";
 
@@ -37,7 +37,7 @@ const RotatingWigoIcon = styled(WigoIcon)`
   transform: translate3d(0, 0, 0);
 `;
 
-const FloatingPanIcon = styled(WIcon)`
+const FloatingPanIcon = styled(PanIcon)`
   animation: ${float} 6s ease-in-out infinite;
   transform: translate3d(0, 0, 0);
 `;

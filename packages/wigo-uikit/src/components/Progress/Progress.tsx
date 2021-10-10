@@ -22,16 +22,17 @@ const Progress: React.FC<ProgressProps> = ({
   primaryStep = 0,
   secondaryStep = null,
   showProgressWiggy = false,
+  useDark = true,
 }) => {
   return (
-    <StyledProgress variant={variant} scale={scale}>
+    <StyledProgress $useDark={useDark} variant={variant} scale={scale}>
       {showProgressWiggy && (
         <ProgressWiggyWrapper style={{ left: `${stepGuard(primaryStep)}%` }}>
           <ProgressWiggy />
         </ProgressWiggyWrapper>
       )}
-      <Bar primary style={{ width: `${stepGuard(primaryStep)}%` }} />
-      {secondaryStep ? <Bar style={{ width: `${stepGuard(secondaryStep)}%` }} /> : null}
+      <Bar $useDark={useDark} primary style={{ width: `${stepGuard(primaryStep)}%` }} />
+      {secondaryStep ? <Bar $useDark={useDark} style={{ width: `${stepGuard(secondaryStep)}%` }} /> : null}
     </StyledProgress>
   );
 };

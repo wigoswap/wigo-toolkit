@@ -69,13 +69,13 @@ export const AsLinks: React.FC = () => {
   return (
     <Row>
       <ButtonMenu activeIndex={0}>
-        <ButtonMenuItem as="a" href="https://wigoswap.io">
+        <ButtonMenuItem as="a" href="https://wigoswap.finance">
           Link 1
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://wigoswap.io">
+        <ButtonMenuItem as="a" href="https://wigoswap.finance">
           Link 2
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://wigoswap.io">
+        <ButtonMenuItem as="a" href="https://wigoswap.finance">
           Link 3
         </ButtonMenuItem>
       </ButtonMenu>
@@ -141,13 +141,13 @@ export const FullWidthMenu: React.FC = () => {
         <ButtonMenuItem>Button 4</ButtonMenuItem>
       </ButtonMenu>
       <ButtonMenu activeIndex={index} fullWidth scale="sm" variant="subtle">
-        <ButtonMenuItem as="a" href="https://wigoswap.io">
+        <ButtonMenuItem as="a" href="https://wigoswap.finance">
           Link 1
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://wigoswap.io">
+        <ButtonMenuItem as="a" href="https://wigoswap.finance">
           Link 2
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://wigoswap.io">
+        <ButtonMenuItem as="a" href="https://wigoswap.finance">
           Link 3
         </ButtonMenuItem>
       </ButtonMenu>

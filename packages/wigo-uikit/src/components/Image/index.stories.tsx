@@ -79,7 +79,7 @@ export const TokenImages: React.FC = () => {
   return (
     <Flex flexWrap="wrap">
       {tokens.map((token) => {
-        const src = `https://wigoswap.io/images/tokens/${token.address[56]}.svg`;
+        const src = `https://wigoswap.finance/images/tokens/${token.address[56]}.svg`;
 
         return (
           <StyledBox key={token.symbol} p="16px">
@@ -100,8 +100,8 @@ export const TokenPairImages: React.FC = () => {
     <Flex flexWrap="wrap">
       {tokens.map((token) => {
         const randomTokenIndex = random(0, tokens.length - 1);
-        const primarySrc = `https://wigoswap.io/images/tokens/${token.address[56]}.svg`;
-        const secondarySrc = `https://wigoswap.io/images/tokens/${tokens[randomTokenIndex].address[56]}.svg`;
+        const primarySrc = `https://wigoswap.finance/images/tokens/${token.address[56]}.svg`;
+        const secondarySrc = `https://wigoswap.finance/images/tokens/${tokens[randomTokenIndex].address[56]}.svg`;
 
         return (
           <StyledBox key={token.symbol} p="16px">

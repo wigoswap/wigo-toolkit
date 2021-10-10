@@ -1,3 +1,6 @@
+import { noop } from "lodash";
+import { DropdownMenuItems, DropdownMenuItemType } from "../../components/DropdownMenu/types";
+import { MenuItemsType } from "../../components/MenuItems/types";
 import { LinkStatus } from "./types";
 
 export const status = {
@@ -15,197 +18,146 @@ export const status = {
   },
 };
 
-export const links = [
-  {
-    label: "Home",
-    icon: "HomeIcon",
-    href: "/",
-  },
+export const links: MenuItemsType[] = [
   {
     label: "Trade",
-    icon: "TradeIcon",
+    href: "/swap",
+    icon: "Swap",
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.wigoswap.io",
+        href: "https://exchange.wigoswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.wigoswap.io/#/pool",
+        href: "https://exchange.wigoswap.finance/#/pool",
       },
     ],
   },
   {
-    label: "Farms",
-    icon: "FarmIcon",
-    href: "/farms",
-    status: status.LIVE,
-  },
-  {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/wigoup",
-  },
-  {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
-  },
-  {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Team Battle",
-    icon: "TeamBattleIcon",
-    href: "/competition",
-    status: status.SOON,
-  },
-  {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
-    status: status.LIVE,
+    label: "Earn",
+    href: "/",
+    icon: "Earn",
     items: [
       {
-        label: "Leaderboard",
-        href: "/teams",
-        status: status.NEW,
+        label: "Earn",
+        href: "/",
       },
       {
-        label: "YourProfile",
+        label: "Yield Farms",
+        href: "/",
+      },
+      {
+        label: "Syrup pools",
         href: "/",
       },
     ],
-    calloutClass: "rainbow",
   },
   {
-    label: "Info",
-    icon: "InfoIcon",
+    label: "Win",
+    href: "/",
+    icon: "Trophy",
     items: [
       {
-        label: "Overview",
-        href: "https://wigoswap.io",
+        label: "Win",
+        href: "/",
       },
       {
-        label: "Tokens",
-        href: "https://wigoswap.io/tokens",
+        label: "Predictions",
+        href: "/",
+        status: status.LIVE,
       },
       {
-        label: "Pairs",
-        href: "https://wigoswap.io/pairs",
-      },
-      {
-        label: "Accounts",
-        href: "https://wigoswap.io/accounts",
+        label: "Lottery",
+        href: "/",
       },
     ],
   },
   {
-    label: "IFO",
-    icon: "IfoIcon",
+    label: "",
+    href: "/",
+    icon: "More",
     items: [
       {
-        label: "Next",
-        href: "/ifo",
+        label: "Info & Analytics",
+        href: "/",
       },
       {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
-  {
-    label: "More",
-    icon: "MoreIcon",
-    items: [
-      {
-        label: "Voting",
-        href: "https://voting.wigoswap.io",
+        label: "IFO Token Sales",
+        href: "/",
+        status: status.SOON,
       },
       {
-        label: "Github",
-        href: "https://github.com/wigoswap",
+        type: DropdownMenuItemType.DIVIDER,
       },
       {
-        label: "Docs",
-        href: "https://docs.wigoswap.io",
+        label: "NFT Collectibles",
+        href: "/",
+      },
+      {
+        label: "Team Leaderboard",
+        href: "/",
+      },
+      {
+        type: DropdownMenuItemType.DIVIDER,
       },
       {
         label: "Blog",
-        href: "https://wigoswap.medium.com",
+        href: "/",
+      },
+      {
+        label: "Docs & Guides",
+        href: "/",
+        type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
   },
 ];
 
-export const socials = [
+export const userMenulinks: DropdownMenuItems[] = [
   {
-    label: "Telegram",
-    icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/wigoswap",
-      },
-      {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/WigoSwapIndonesia",
-      },
-      {
-        label: "中文",
-        href: "https://t.me/WigoSwap_CN",
-      },
-      {
-        label: "Tiếng Việt",
-        href: "https://t.me/WigoSwapVN",
-      },
-      {
-        label: "Italiano",
-        href: "https://t.me/wigoswap_ita",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/wigoswap_ru",
-      },
-      {
-        label: "Türkiye",
-        href: "https://t.me/wigoswapturkiye",
-      },
-      {
-        label: "Português",
-        href: "https://t.me/WigoSwapPortuguese",
-      },
-      {
-        label: "Español",
-        href: "https://t.me/WigoswapEs",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/wigoswapjp",
-      },
-      {
-        label: "Français",
-        href: "https://t.me/wigoswapfr",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/WigoSwapAnn",
-      },
-      {
-        label: "Whale Alert",
-        href: "https://t.me/WigoSwapWhales",
-      },
-    ],
+    label: "Wallet",
+    onClick: noop,
+    type: DropdownMenuItemType.BUTTON,
   },
   {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/wigoswap",
+    label: "Transactions",
+    type: DropdownMenuItemType.BUTTON,
+  },
+  {
+    type: DropdownMenuItemType.DIVIDER,
+  },
+  {
+    type: DropdownMenuItemType.BUTTON,
+    disabled: true,
+    label: "Dashboard",
+  },
+  {
+    type: DropdownMenuItemType.BUTTON,
+    disabled: true,
+    label: "Portfolio",
+  },
+  {
+    label: "Profile",
+    href: "/profile",
+  },
+  {
+    type: DropdownMenuItemType.EXTERNAL_LINK,
+    href: "https://wigoswap.finance",
+    label: "Link",
+  },
+  {
+    type: DropdownMenuItemType.DIVIDER,
+  },
+  {
+    type: DropdownMenuItemType.BUTTON,
+    onClick: noop,
+    label: "Disconnect",
   },
 ];
 
-export const MENU_HEIGHT = 64;
+export const MENU_HEIGHT = 56;
 export const MENU_ENTRY_HEIGHT = 48;
+export const MOBILE_MENU_HEIGHT = 44;
 export const SIDEBAR_WIDTH_FULL = 240;
 export const SIDEBAR_WIDTH_REDUCED = 56;

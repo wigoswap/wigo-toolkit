@@ -80,7 +80,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
           </Text>
           <Button
             as="a"
-            href="https://docs.wigoswap.io/get-started/connection-guide"
+            href="https://docs.wigoswap.finance/get-started/connection-guide"
             variant="subtle"
             width="100%"
             {...getExternalLinkProps()}

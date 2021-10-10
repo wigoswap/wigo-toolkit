@@ -2,11 +2,11 @@ import { AlertTheme } from "../components/Alert/types";
 import { CardTheme } from "../components/Card/types";
 import { WigoToggleTheme } from "../components/WigoToggle/types";
 import { RadioTheme } from "../components/Radio/types";
-import { ToggleTheme } from "../components/Toggle/types";
+import { ToggleTheme } from "../components/Toggle/theme";
 import { TooltipTheme } from "../components/Tooltip/types";
-import { NavTheme } from "../widgets/Menu/types";
+import { NavThemeType } from "../widgets/Menu/theme";
 import { ModalTheme } from "../widgets/Modal/types";
-import { Colors, Breakpoints, MediaQueries, Spacing, Shadows, Radii, ZIndices } from "./types";
+import { Breakpoints, Colors, MediaQueries, Radii, Shadows, Spacing, ZIndices } from "./types";
 
 export interface WigoTheme {
   siteWidth: number;
@@ -14,7 +14,7 @@ export interface WigoTheme {
   alert: AlertTheme;
   colors: Colors;
   card: CardTheme;
-  nav: NavTheme;
+  nav: NavThemeType;
   modal: ModalTheme;
   wigoToggle: WigoToggleTheme;
   radio: RadioTheme;
@@ -28,9 +28,7 @@ export interface WigoTheme {
   zIndices: ZIndices;
 }
 
+export { darkColors, lightColors } from "./colors";
 export { default as dark } from "./dark";
 export { default as light } from "./light";
-
-export { lightColors } from "./colors";
-export { darkColors } from "./colors";
 export * from "./types";

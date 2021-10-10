@@ -1,5 +1,5 @@
 /**
- * @see https://github.com/wigoswap/wigo-interface/blob/develop/src/config/constants/tokens.ts
+ * @see https://github.com/wigoswap/wigo-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
   wigo: {
@@ -9,7 +9,7 @@ const tokens = {
       97: "0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe",
     },
     decimals: 18,
-    projectLink: "https://wigoswap.io/",
+    projectLink: "https://wigoswap.finance/",
   },
   txl: {
     symbol: "TXL",
@@ -441,7 +441,7 @@ const tokens = {
       97: "0xae13d989dac2f0debff460ac112a837c89baa7cd",
     },
     decimals: 18,
-    projectLink: "https://wigoswap.io/",
+    projectLink: "https://wigoswap.finance/",
   },
   blink: {
     symbol: "BLINK",
@@ -578,14 +578,14 @@ const tokens = {
     decimals: 18,
     projectLink: "https://compound.finance/",
   },
-  wigoup: {
-    symbol: "xWIGO",
+  syrup: {
+    symbol: "SYRUP",
     address: {
       56: "0x009cF7bC57584b7998236eff51b98A168DceA9B0",
       97: "0xfE1e507CeB712BDe086f3579d2c03248b2dB77f9",
     },
     decimals: 18,
-    projectLink: "https://wigoswap.io/",
+    projectLink: "https://wigoswap.finance/",
   },
   bifi: {
     symbol: "BIFI",
