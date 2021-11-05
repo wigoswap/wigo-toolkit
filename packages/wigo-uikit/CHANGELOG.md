@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.1.1...@wigoswap/wigo-uikit@1.2.0) (2021-11-05)
+
+
+### Features
+
+* Change WigoPrice decimal place ([655d2e3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/655d2e32a3496bc9bd1e47f66884588e1aea50eb))
+
+
+
+
+
 ## [1.1.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.1.0...@wigoswap/wigo-uikit@1.1.1) (2021-11-02)
 
 
