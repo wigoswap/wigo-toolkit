@@ -30,7 +30,7 @@ const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "textSubtle" }) => {
       target="_blank"
     >
       <WigoRoundIcon width="24px" mr="8px" />
-      <Text color={color} bold>{`$${wigoPriceUsd.toFixed(3)}`}</Text>
+      <Text color={color} bold>{`$${wigoPriceUsd.toFixed(4)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />
