@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.2.0...@wigoswap/wigo-uikit@1.3.0) (2021-11-11)
+
+
+### Features
+
+* Change body background color ([2bab567](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/2bab5672f40f63eb82982b47444f6ccffdebe52d))
+
+
+
+
+
 # [1.2.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.1.1...@wigoswap/wigo-uikit@1.2.0) (2021-11-05)
 
 
