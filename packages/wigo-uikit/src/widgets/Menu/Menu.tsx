@@ -30,7 +30,6 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   width: 100%;
   height: ${MENU_HEIGHT}px;
   background-color: ${({ theme }) => theme.nav.background};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder};
   z-index: 20;
   transform: translate3d(0, 0, 0);
 
@@ -129,8 +128,8 @@ const Menu: React.FC<NavProps> = ({
           {globalMenu} {userMenu}
         </Flex>
       </StyledNav>
-      {subLinks && <SubMenuItems items={subLinks} mt={`${MENU_HEIGHT + 1}px`} activeItem={activeSubItem} />}
-      <BodyWrapper mt={!subLinks ? `${MENU_HEIGHT + 1}px` : "0"}>
+      {subLinks && <SubMenuItems items={subLinks} mt={`${MENU_HEIGHT}px`} activeItem={activeSubItem} />}
+      <BodyWrapper mt={!subLinks ? `${MENU_HEIGHT}px` : "0"}>
         <Inner isPushed={false} showMenu={showMenu}>
           {children}
           <Footer
