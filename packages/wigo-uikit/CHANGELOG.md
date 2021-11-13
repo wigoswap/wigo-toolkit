@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.4.1...@wigoswap/wigo-uikit@1.4.2) (2021-11-13)
+
+
+### Bug Fixes
+
+* Fix menu colors ([23942fc](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/23942fcd6764570f5d28149f434222dbb990ae8a))
+* Fix showMenu trigger ([f7ef283](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/f7ef2833c86eb9b167a0e964ebe7ebaf3d3a9438))
+
+
+
+
+
 ## [1.4.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.4.0...@wigoswap/wigo-uikit@1.4.1) (2021-11-12)
 
 
