@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.4.4...@wigoswap/wigo-uikit@1.5.0) (2021-11-14)
+
+
+### Features
+
+* Change card design ([8d8f974](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/8d8f97412cb089940905ceb2ac84e40e178207ff))
+* Change default radii ([751e3c3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/751e3c327c76768414b77daf26b1e1e070601199))
+
+
+
+
+
 ## [1.4.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.4.3...@wigoswap/wigo-uikit@1.4.4) (2021-11-14)
 
 
