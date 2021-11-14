@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.5.0...@wigoswap/wigo-uikit@1.6.0) (2021-11-14)
+
+
+### Features
+
+* Add wigoDark color ([91b6470](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/91b6470ba3fa29330e5e1d3e7f20e01d4682a778))
+
+
+
+
+
 # [1.5.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.4.4...@wigoswap/wigo-uikit@1.5.0) (2021-11-14)
 
 
