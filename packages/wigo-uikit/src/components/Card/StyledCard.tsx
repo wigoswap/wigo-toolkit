@@ -3,18 +3,6 @@ import { space } from "styled-system";
 import { Box } from "../Box";
 import { CardProps } from "./types";
 
-const PromotedGradient = keyframes`
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-`;
-
 interface StyledCardProps extends CardProps {
   theme: DefaultTheme;
 }
@@ -42,7 +30,7 @@ const getBorderColor = ({ isActive, isSuccess, isWarning, borderBackground, them
 };
 
 export const StyledCard = styled.div<StyledCardProps>`
-  background: ${getBorderColor};
+  background: unset;
   border-radius: ${({ theme }) => theme.radii.card};
   color: ${({ theme, isDisabled }) => theme.colors[isDisabled ? "textDisabled" : "text"]};
   overflow: hidden;
@@ -51,11 +39,10 @@ export const StyledCard = styled.div<StyledCardProps>`
   ${({ isActive }) =>
     isActive &&
     css`
-      animation: ${PromotedGradient} 3s ease infinite;
       background-size: 400% 400%;
     `}
 
-  padding: 1px 1px 3px 1px;
+  padding: 0;
 
   ${space}
 `;
