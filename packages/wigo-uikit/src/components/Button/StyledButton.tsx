@@ -47,7 +47,6 @@ const StyledButton = styled.button<BaseButtonProps>`
   align-items: center;
   border: 0;
   border-radius: 10px;
-  box-shadow: 0px -1px 0px 0px rgba(14, 14, 44, 0.4) inset;
   cursor: pointer;
   display: inline-flex;
   font-family: inherit;
@@ -66,7 +65,6 @@ const StyledButton = styled.button<BaseButtonProps>`
   &:active:not(:disabled):not(.wigo-button--disabled):not(.wigo-button--disabled) {
     opacity: 0.85;
     transform: translateY(1px);
-    box-shadow: none;
   }
 
   ${getDisabledStyles}
