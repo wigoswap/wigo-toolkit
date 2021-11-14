@@ -37,6 +37,7 @@ export type Gradients = {
   violet: string;
   violetAlt: string;
   gold: string;
+  wigoDark: string;
 };
 
 export type Colors = {
@@ -65,6 +66,7 @@ export type Colors = {
   textDisabled: string;
   textSubtle: string;
   disabled: string;
+  wigoBlue: string;
 
   // Gradients
   gradients: Gradients;

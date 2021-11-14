@@ -8,6 +8,7 @@ export const baseColors = {
   secondary: "#7645D9",
   success: "#31D0AA",
   warning: "#FFB237",
+  wigoBlue: "rgba(55, 78, 245, 1)",
 };
 
 export const additionalColors = {
@@ -47,6 +48,7 @@ export const lightColors: Colors = {
     violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
     violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+    wigoDark: "linear-gradient(252.78deg, #161C1E -0.77%, #0C1317 80.47%)",
   },
 };
 
@@ -81,5 +83,6 @@ export const darkColors: Colors = {
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+    wigoDark: "linear-gradient(252.78deg, #161C1E -0.77%, #0C1317 80.47%)",
   },
 };
