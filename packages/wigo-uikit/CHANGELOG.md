@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.6.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.6.0...@wigoswap/wigo-uikit@1.6.1) (2021-11-14)
+
+
+### Bug Fixes
+
+* Fix button variants ([55079d7](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/55079d78d6e2ddc8460f8bcdf477b02d17a7daac))
+
+
+
+
+
 # [1.6.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.5.0...@wigoswap/wigo-uikit@1.6.0) (2021-11-14)
 
 
