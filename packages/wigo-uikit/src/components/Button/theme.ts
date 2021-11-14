@@ -18,15 +18,15 @@ export const scaleVariants = {
 
 export const styleVariants = {
   [variants.PRIMARY]: {
-    backgroundColor: "primary",
-    color: "white",
+    backgroundColor: "white",
+    color: "wigoBlue",
   },
   [variants.SECONDARY]: {
     backgroundColor: "transparent",
     border: "2px solid",
-    borderColor: "primary",
+    borderColor: "white",
     boxShadow: "none",
-    color: "primary",
+    color: "white",
     ":disabled": {
       backgroundColor: "transparent",
     },
