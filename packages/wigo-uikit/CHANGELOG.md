@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.8.0...@wigoswap/wigo-uikit@1.8.1) (2021-11-15)
+
+
+### Bug Fixes
+
+* Fix some colors ([813e63d](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/813e63d6225cda1ee45556c160204de6d606352a))
+
+
+
+
+
 # [1.8.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.7.0...@wigoswap/wigo-uikit@1.8.0) (2021-11-15)
 
 
