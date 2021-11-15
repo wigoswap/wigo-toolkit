@@ -9,6 +9,7 @@ export const baseColors = {
   success: "#31D0AA",
   warning: "#FFB237",
   wigoBlue: "rgba(55, 78, 245, 1)",
+  wigoWhite: "#FFFFFF",
 };
 
 export const additionalColors = {

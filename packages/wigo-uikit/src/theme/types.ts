@@ -67,6 +67,7 @@ export type Colors = {
   textSubtle: string;
   disabled: string;
   wigoBlue: string;
+  wigoWhite: string;
 
   // Gradients
   gradients: Gradients;
