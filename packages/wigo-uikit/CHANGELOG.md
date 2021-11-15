@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.6.2...@wigoswap/wigo-uikit@1.7.0) (2021-11-15)
+
+
+### Features
+
+* Change user menu icon design ([4d3af3e](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/4d3af3e68c8b634a16a782225e0e34250cb3e906))
+
+
+
+
+
 ## [1.6.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.6.1...@wigoswap/wigo-uikit@1.6.2) (2021-11-14)
 
 
