@@ -68,6 +68,7 @@ export type Colors = {
   disabled: string;
   wigoBlue: string;
   wigoWhite: string;
+  skelton: string;
 
   // Gradients
   gradients: Gradients;

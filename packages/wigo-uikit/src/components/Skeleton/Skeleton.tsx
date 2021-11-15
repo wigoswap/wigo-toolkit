@@ -25,9 +25,9 @@ const pulse = keyframes`
 `;
 
 const Root = styled.div<SkeletonProps>`
-  min-height: 20px;
+  min-height: 10px;
   display: block;
-  background-color: ${({ theme }) => theme.colors.backgroundDisabled};
+  background-color: ${({ theme }) => theme.colors.skelton};
   border-radius: ${({ variant, theme }) => (variant === VARIANT.CIRCLE ? theme.radii.circle : theme.radii.small)};
 
   ${layout}
