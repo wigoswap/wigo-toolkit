@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.8.1...@wigoswap/wigo-uikit@1.9.0) (2021-11-15)
+
+
+### Features
+
+* Add skelton color ([f598015](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/f598015778dc841f809acbb7db7a7fea314ec66b))
+
+
+
+
+
 ## [1.8.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.8.0...@wigoswap/wigo-uikit@1.8.1) (2021-11-15)
 
 
