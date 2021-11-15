@@ -7,8 +7,8 @@ import { Colors } from "../../../../theme/types";
 
 const MenuIconWrapper = styled.div<{ borderColor: keyof Colors }>`
   align-items: center;
-  background-color: ${({ theme }) => theme.colors.background};
-  border-color: ${({ theme, borderColor }) => theme.colors[borderColor]};
+  background-color: ${({ theme }) => theme.colors.wigoBlue};
+  border-color: white;
   border-radius: 50%;
   border-style: solid;
   border-width: 2px;
