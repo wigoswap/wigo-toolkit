@@ -30,18 +30,6 @@ const StyledLink = styled(Link)`
       display: block;
     }
   }
-  .right-eye {
-    animation-delay: 20ms;
-  }
-  &:hover {
-    .left-eye,
-    .right-eye {
-      transform-origin: center 60%;
-      animation-name: ${blink};
-      animation-duration: 350ms;
-      animation-iteration-count: 1;
-    }
-  }
 `;
 
 const Logo: React.FC<Props> = ({ isDark, href }) => {
