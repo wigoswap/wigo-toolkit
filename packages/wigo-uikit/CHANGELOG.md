@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.3...@wigoswap/wigo-uikit@1.9.4) (2021-11-16)
+
+
+### Bug Fixes
+
+* Change Logo with text ([b397d1a](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/b397d1acc3d681284ef32fb91d3d246edc1f908c))
+
+
+
+
+
 ## [1.9.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.2...@wigoswap/wigo-uikit@1.9.3) (2021-11-16)
 
 
