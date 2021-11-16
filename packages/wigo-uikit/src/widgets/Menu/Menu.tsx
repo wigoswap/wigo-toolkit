@@ -12,7 +12,7 @@ import WigoPrice from "../../components/WigoPrice/WigoPrice";
 import Logo from "./components/Logo";
 import { MENU_HEIGHT, MOBILE_MENU_HEIGHT } from "./config";
 import { NavProps } from "./types";
-import LangSelector from "../../components/LangSelector/LangSelector";
+// import LangSelector from "../../components/LangSelector/LangSelector";
 
 const Wrapper = styled.div`
   position: relative;
@@ -113,11 +113,11 @@ const Menu: React.FC<NavProps> = ({
         </Flex>
         <Flex alignItems="center">
           {!isMobile && (
-            <Box mr="12px">
+            <Box mr="24px">
               <WigoPrice wigoPriceUsd={wigoPriceUsd} />
             </Box>
           )}
-          <Box mt="4px">
+          {/* <Box mt="4px">
             <LangSelector
               currentLang={currentLang}
               langs={langs}
@@ -126,8 +126,8 @@ const Menu: React.FC<NavProps> = ({
               color="textSubtle"
               hideLanguage
             />
-          </Box>
-          {globalMenu} {userMenu}
+          </Box> */}
+          {userMenu}
         </Flex>
       </StyledNav>
       {subLinks && <SubMenuItems items={subLinks} mt={`${MENU_HEIGHT}px`} activeItem={activeSubItem} />}

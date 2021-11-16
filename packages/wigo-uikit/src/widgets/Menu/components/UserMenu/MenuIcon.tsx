@@ -11,7 +11,7 @@ const MenuIconWrapper = styled.div<{ borderColor: keyof Colors }>`
   border-color: white;
   border-radius: 50%;
   border-style: solid;
-  border-width: 2px;
+  border-width: 0;
   display: flex;
   height: 40px;
   justify-content: center;
