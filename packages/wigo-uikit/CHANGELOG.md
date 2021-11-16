@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.8](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.7...@wigoswap/wigo-uikit@1.9.8) (2021-11-16)
+
+
+### Bug Fixes
+
+* Fix user menu ([4a67579](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/4a67579d02d312d9a607c39b336b60bc3aee63be))
+
+
+
+
+
 ## [1.9.7](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.6...@wigoswap/wigo-uikit@1.9.7) (2021-11-16)
 
 
