@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.2...@wigoswap/wigo-uikit@1.9.3) (2021-11-16)
+
+
+### Bug Fixes
+
+* Fix menu item active color ([e3b5b07](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/e3b5b07e44663d124eec4ba08239d69d5a0c9895))
+
+
+
+
+
 ## [1.9.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.1...@wigoswap/wigo-uikit@1.9.2) (2021-11-16)
 
 
