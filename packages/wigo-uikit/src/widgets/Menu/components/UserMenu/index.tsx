@@ -40,12 +40,13 @@ const Menu = styled.div<{ isOpen: boolean }>`
   background-color: ${({ theme }) => theme.colors.wigoWhite};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
   border-radius: 10px;
-  padding-bottom: 4px;
-  padding-top: 4px;
   pointer-events: auto;
   width: 200px;
   visibility: visible;
   z-index: 1001;
+  box-shadow: 0px 4px 22px -10px rgb(0 0 0);
+}
+
 
   ${({ isOpen }) =>
     !isOpen &&
@@ -55,11 +56,11 @@ const Menu = styled.div<{ isOpen: boolean }>`
   `}
 
   ${UserMenuItem}:first-child {
-    border-radius: 8px 8px 0 0;
+    border-radius: 10px 10px 0 0;
   }
 
   ${UserMenuItem}:last-child {
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 10px 10px;
   }
 `;
 
