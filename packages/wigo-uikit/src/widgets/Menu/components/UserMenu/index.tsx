@@ -37,13 +37,13 @@ export const LabelText = styled.div`
 `;
 
 const Menu = styled.div<{ isOpen: boolean }>`
-  background-color: ${({ theme }) => theme.card.background};
+  background-color: ${({ theme }) => theme.colors.wigoWhite};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
+  border-radius: 10px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;
-  width: 280px;
+  width: 200px;
   visibility: visible;
   z-index: 1001;
 

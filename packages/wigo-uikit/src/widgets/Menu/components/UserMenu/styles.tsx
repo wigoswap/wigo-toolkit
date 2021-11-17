@@ -11,20 +11,20 @@ export const UserMenuDivider = styled.hr`
 export const UserMenuItem = styled.button<UserMenuItemProps>`
   align-items: center;
   border: 0;
+  border-radius: 5px;
   background: transparent;
-  color: ${({ theme, disabled }) => theme.colors[disabled ? "textDisabled" : "textSubtle"]};
+  color: ${({ theme, disabled }) => theme.colors[disabled ? "textDisabled" : "textMenu"]};
   cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
   display: flex;
   font-size: 16px;
   height: 48px;
-  justify-content: space-between;
   outline: 0;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0 16px;
   width: 100%;
 
   &:hover:not(:disabled) {
-    background-color: ${({ theme }) => theme.colors.tertiary};
+    background-color: ${({ theme }) => theme.colors.cardBorder};
+    color: ${({ theme }) => theme.colors.wigoBlue};
   }
 
   &:active:not(:disabled) {

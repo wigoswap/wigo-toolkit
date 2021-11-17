@@ -46,6 +46,7 @@ export type Colors = {
   primaryDark: string;
   primaryMenu: string;
   secondaryMenu: string;
+  textMenu: string;
   secondary: string;
   tertiary: string;
   success: string;
