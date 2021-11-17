@@ -38,7 +38,6 @@ export const LabelText = styled.div`
 
 const Menu = styled.div<{ isOpen: boolean }>`
   background-color: ${({ theme }) => theme.colors.wigoWhite};
-  border: 1px solid ${({ theme }) => theme.colors.cardBorder};
   border-radius: 10px;
   pointer-events: auto;
   width: 200px;
