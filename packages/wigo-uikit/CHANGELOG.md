@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.23](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.22...@wigoswap/wigo-uikit@1.9.23) (2021-11-18)
+
+
+### Bug Fixes
+
+* Change overlay color ([30f15da](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/30f15da78394e37d37b324cf6517e18437fe3690))
+* Fix overlay color ([c1370a0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/c1370a0c21beac05c4c5f7afa0ce99d68766ae87))
+
+
+
+
+
 ## [1.9.22](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.21...@wigoswap/wigo-uikit@1.9.22) (2021-11-18)
 
 
