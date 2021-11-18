@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.13](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.12...@wigoswap/wigo-uikit@1.9.13) (2021-11-18)
+
+
+### Bug Fixes
+
+* Change menu box shadow ([c5e5dec](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/c5e5dec24b9eb7dea4c98f124ebd73398f58a83e))
+* Change menu frop down hover ([86bc941](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/86bc941186060c80e4b3b30e54081a7ec573ca5c))
+* Remove margin from menu divider ([52fc007](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/52fc007df7ab80520a614b181c75abe6342c05d5))
+
+
+
+
+
 ## [1.9.12](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.11...@wigoswap/wigo-uikit@1.9.12) (2021-11-18)
 
 
