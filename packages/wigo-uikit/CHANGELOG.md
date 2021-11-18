@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.12](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.11...@wigoswap/wigo-uikit@1.9.12) (2021-11-18)
+
+
+### Bug Fixes
+
+* Change menu drop down ([6aa7e4f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/6aa7e4f02df47fd62a60c44216a50d3c0c89e600))
+* Fix border radius in user menu item ([f0a46ae](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/f0a46ae5badeb562ba1514f28daa45033e811574))
+* Remove user menu border ([990e690](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/990e690dc40a1455ad778f04be8e45471919315d))
+
+
+
+
+
 ## [1.9.11](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.10...@wigoswap/wigo-uikit@1.9.11) (2021-11-17)
 
 
