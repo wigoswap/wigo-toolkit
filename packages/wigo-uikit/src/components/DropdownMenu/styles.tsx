@@ -11,7 +11,7 @@ const getTextColor = ({
   if (disabled) return theme.colors.textDisabled;
   if ($isActive) return theme.colors.wigoBlue;
 
-  return theme.colors.textSubtle;
+  return theme.colors.textMenu;
 };
 
 export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $isActive: boolean }>`
@@ -32,7 +32,7 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
 
   &:hover:not(:disabled) {
     background-color: ${({ theme }) => theme.colors.cardBorder};
-    color: ${({ theme }) => theme.colors.wigoBlue};
+    color: ${({ theme }) => theme.colors.textSubtle};
   }
 
   &:active:not(:disabled) {
