@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.24](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.23...@wigoswap/wigo-uikit@1.9.24) (2021-11-18)
+
+
+### Bug Fixes
+
+* Add delay to spinner ([60ef7c7](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/60ef7c7846b8e45cd21d4fa2a0e89611fee74c0a))
+* Change menu logo color ([8b78826](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/8b78826569502613be8952d7dc06b7c2fb6d0fd3))
+* Fix spinner delay ([8c35e22](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/8c35e22a2c5ab8b4f57ed6256711678476225a54))
+
+
+
+
+
 ## [1.9.23](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.22...@wigoswap/wigo-uikit@1.9.23) (2021-11-18)
 
 
