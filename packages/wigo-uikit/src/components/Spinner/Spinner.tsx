@@ -7,17 +7,8 @@ const rotate = keyframes`
   from {
     transform: rotate(0deg);
   }
-  5% {
-    transform: rotate(10deg);
-  }
-  50% {
-    transform: rotate(-180deg);
-  }
-  55% {
-    transform: rotate(-170deg);
-  }
   to {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 `;
 
@@ -29,8 +20,7 @@ const RotatingWigoIcon = styled(Logo)`
   position: absolute;
   top: 0;
   left: 0;
-  animation: ${rotate} 2s ease-out infinite;
-  animation-delay: 0.5s;
+  animation: ${rotate} 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s infinite reverse both;
   transform: translate3d(0, 0, 0);
 `;
 
