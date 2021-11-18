@@ -32,7 +32,7 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
 
   &:hover:not(:disabled) {
     background-color: ${({ theme }) => theme.colors.cardBorder};
-    color: ${({ theme }) => theme.colors.textSubtle};
+    color: ${({ theme }) => theme.colors.wigoBlue};
   }
 
   &:active:not(:disabled) {

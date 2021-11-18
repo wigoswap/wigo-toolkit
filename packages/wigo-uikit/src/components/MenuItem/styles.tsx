@@ -54,7 +54,7 @@ const StyledMenuItem = styled.a<StyledMenuItemProps>`
   `}
 
   &:hover {
-    color: ${({ theme }) => theme.colors.wigoWhite};
+    color: ${({ theme }) => theme.colors.textSubtle};
   }
 `;
 
