@@ -9,7 +9,7 @@ const getTextColor = ({
   theme,
 }: StyledDropdownMenuItemProps & { theme: DefaultTheme; $isActive: boolean }) => {
   if (disabled) return theme.colors.textDisabled;
-  if ($isActive) return theme.colors.secondary;
+  if ($isActive) return theme.colors.wigoBlue;
 
   return theme.colors.textSubtle;
 };
@@ -31,7 +31,8 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
   width: 100%;
 
   &:hover:not(:disabled) {
-    background-color: ${({ theme }) => theme.colors.tertiary};
+    background-color: ${({ theme }) => theme.colors.cardBorder};
+    color: ${({ theme }) => theme.colors.wigoBlue};
   }
 
   &:active:not(:disabled) {
@@ -42,13 +43,13 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
 
 export const StyledDropdownMenuItemContainer = styled.div`
   &:first-child > ${DropdownMenuItem} {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   &:last-child > ${DropdownMenuItem} {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 `;
 
