@@ -5,7 +5,16 @@ import { SpinnerProps } from "./types";
 
 const rotate = keyframes`
   from {
-    transform: rotate(90deg);
+    transform: rotate(360deg);
+  }
+  5% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  55% {
+    transform: rotate(180deg);
   }
   to {
     transform: rotate(0deg);
