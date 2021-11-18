@@ -20,7 +20,7 @@ const RotatingWigoIcon = styled(Logo)`
   position: absolute;
   top: 0;
   left: 0;
-  animation: ${rotate} 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s infinite reverse both;
+  animation: ${rotate} 3s cubic-bezier(0.9, 0, 0.2, 1.56) infinite reverse both;
   transform: translate3d(0, 0, 0);
 `;
 
