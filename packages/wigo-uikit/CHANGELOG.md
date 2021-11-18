@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.16](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.15...@wigoswap/wigo-uikit@1.9.16) (2021-11-18)
+
+
+### Bug Fixes
+
+* Add LogoWhite ([6f0fb46](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/6f0fb463f1affbaf7c9e4cbe969c7b867a67f482))
+* Add LogoWhite ([1868ef8](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/1868ef8c9014f89a232062800fd6eaf5b3470cfd))
+
+
+
+
+
 ## [1.9.15](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.14...@wigoswap/wigo-uikit@1.9.15) (2021-11-18)
 
 
