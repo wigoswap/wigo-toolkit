@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.22](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.21...@wigoswap/wigo-uikit@1.9.22) (2021-11-18)
+
+
+### Bug Fixes
+
+* Spinner fixed ([c0e74c3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/c0e74c3eb811d3a29d5a5dca6f20b2218b4aaa5f))
+
+
+
+
+
 ## [1.9.21](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.20...@wigoswap/wigo-uikit@1.9.21) (2021-11-18)
 
 
