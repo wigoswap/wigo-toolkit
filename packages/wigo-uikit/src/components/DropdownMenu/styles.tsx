@@ -71,15 +71,13 @@ export const StyledOverlay = styled.div`
 `;
 
 export const StyledDropdownMenu = styled.div<{ $isOpen: boolean; $isBottomNav: boolean }>`
-  background-color: ${({ theme }) => theme.card.background};
-  border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
-  padding-bottom: 4px;
-  padding-top: 4px;
+  background-color: ${({ theme }) => theme.colors.wigoWhite};
+  border-radius: 10px;
   pointer-events: auto;
-  width: ${({ $isBottomNav }) => ($isBottomNav ? "calc(100% - 32px)" : "280px")};
+  width: ${({ $isBottomNav }) => ($isBottomNav ? "calc(100% - 32px)" : "200px")};
   visibility: visible;
   z-index: 1001;
+  box-shadow: 0px 4px 22px -10px rgb(0 0 0);
 
   ${({ $isOpen }) =>
     !$isOpen &&
