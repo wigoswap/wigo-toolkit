@@ -5,19 +5,19 @@ import { SpinnerProps } from "./types";
 
 const rotate = keyframes`
   from {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
   5% {
-    transform: rotate(360deg);
+    transform: rotate(10deg);
   }
   50% {
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
   }
   55% {
-    transform: rotate(180deg);
+    transform: rotate(-170deg);
   }
   to {
-    transform: rotate(0deg);
+    transform: rotate(-360deg);
   }
 `;
 
