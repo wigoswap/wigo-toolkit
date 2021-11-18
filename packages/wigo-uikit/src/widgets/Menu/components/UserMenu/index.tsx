@@ -43,7 +43,7 @@ const Menu = styled.div<{ isOpen: boolean }>`
   width: 200px;
   visibility: visible;
   z-index: 1001;
-  box-shadow: 0px 4px 22px -10px rgb(0 0 0);
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 60%);
 }
 
 
