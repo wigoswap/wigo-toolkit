@@ -14,7 +14,7 @@ export const baseColors = {
 
 export const additionalColors = {
   binance: "#F0B90B",
-  overlay: "#000000",
+  overlay: "#050b0d",
   gold: "#FFC700",
   silver: "#B2B2B2",
   bronze: "#E7974D",
