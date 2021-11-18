@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.25](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.24...@wigoswap/wigo-uikit@1.9.25) (2021-11-18)
+
+
+### Bug Fixes
+
+* Remove scrollbar ([5604f58](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/5604f58d5c2c3f2a330ed936b52e494217e997c1))
+
+
+
+
+
 ## [1.9.24](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.23...@wigoswap/wigo-uikit@1.9.24) (2021-11-18)
 
 
