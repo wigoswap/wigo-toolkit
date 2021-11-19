@@ -1,6 +1,6 @@
 {
   "name": "@wigoswap/wigo-uikit",
-  "version": "1.9.26",
+  "version": "1.9.27",
   "description": "Set of UI components for Wigoswap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.27](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.26...@wigoswap/wigo-uikit@1.9.27) (2021-11-19)
+
+
+### Bug Fixes
+
+* Fix wigo coin scale ([fc898a4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/fc898a4a7c94c05d9fc2fd48d5f4d17b2733a0f4))
+
+
+
+
+
 ## [1.9.26](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.25...@wigoswap/wigo-uikit@1.9.26) (2021-11-18)
 
 
