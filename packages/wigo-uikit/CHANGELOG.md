@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.28](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.27...@wigoswap/wigo-uikit@1.9.28) (2021-11-19)
+
+
+### Bug Fixes
+
+* Fix wigo coin svg ([aa234fc](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/aa234fcf73ac0f50152b6567b544e1a228dc3aa0))
+
+
+
+
+
 ## [1.9.27](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.26...@wigoswap/wigo-uikit@1.9.27) (2021-11-19)
 
 
