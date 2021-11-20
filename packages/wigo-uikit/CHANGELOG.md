@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.31](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.30...@wigoswap/wigo-uikit@1.9.31) (2021-11-20)
+
+
+### Bug Fixes
+
+* Fix font weights ([38b0fa1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/38b0fa1a4a07fcd6e9950b39c9f70f59048e8e60))
+
+
+
+
+
 ## [1.9.30](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.29...@wigoswap/wigo-uikit@1.9.30) (2021-11-19)
 
 
