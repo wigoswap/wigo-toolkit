@@ -9,6 +9,7 @@ import {
   StyledListItem,
   StyledSocialLinks,
   StyledToolsContainer,
+  StyledFooterBorder,
 } from "./styles";
 import { FooterProps } from "./types";
 import { ThemeSwitcher } from "../ThemeSwitcher";
@@ -64,6 +65,7 @@ const MenuItem: React.FC<FooterProps> = ({
             <LogoWhite isDark width="160px" />
           </Box>
         </Flex>
+        <StyledFooterBorder />
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
         <StyledToolsContainer
           order={[1, null, 3]}

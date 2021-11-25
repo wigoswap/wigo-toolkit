@@ -70,6 +70,7 @@ export type Colors = {
   wigoBlue: string;
   wigoWhite: string;
   skelton: string;
+  footer: string;
 
   // Gradients
   gradients: Gradients;
