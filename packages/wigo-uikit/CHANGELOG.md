@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.39](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.38...@wigoswap/wigo-uikit@1.9.39) (2021-11-26)
+
+
+### Bug Fixes
+
+* Fix Heading weight ([5b74808](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/5b74808c6988db6c98cdc3bd9860715a7d21b4a0))
+
+
+
+
+
 ## [1.9.38](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.37...@wigoswap/wigo-uikit@1.9.38) (2021-11-25)
 
 
