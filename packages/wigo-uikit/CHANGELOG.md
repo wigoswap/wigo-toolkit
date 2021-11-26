@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.42](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.41...@wigoswap/wigo-uikit@1.9.42) (2021-11-26)
+
+
+### Bug Fixes
+
+* Fix logo size in footer ([5686e72](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/5686e72130726075c9157845e5cd9d90aebe1b27))
+* Fix wigoPrice in footer ([0657fce](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/0657fcedb1477b2bbc957b4151ac68cd386b0328))
+
+
+
+
+
 ## [1.9.41](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.40...@wigoswap/wigo-uikit@1.9.41) (2021-11-26)
 
 
