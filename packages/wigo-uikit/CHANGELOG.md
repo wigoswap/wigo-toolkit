@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.46](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.45...@wigoswap/wigo-uikit@1.9.46) (2021-11-26)
+
+
+### Bug Fixes
+
+* Fix no profile avatar colors ([1c5b5a0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/1c5b5a06cb642e0d408a70e52e2fa329c5e5bcaf))
+
+
+
+
+
 ## [1.9.45](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.44...@wigoswap/wigo-uikit@1.9.45) (2021-11-26)
 
 
