@@ -72,7 +72,7 @@ const MenuItem: React.FC<FooterProps> = ({
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
-          <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
+          <Flex order={[1, null, 1]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
               <WigoPrice wigoPriceUsd={wigoPriceUsd} color={darkColors.textSubtle as keyof Colors} />
             </Box>
@@ -86,7 +86,7 @@ const MenuItem: React.FC<FooterProps> = ({
               {buyWigoLabel}
             </Button>
           </Flex>
-          <Flex order={[2, null, 1]} alignItems="center">
+          <Flex order={[2, null, 2]} alignItems="center">
             <StyledSocialLinks />
           </Flex>
         </StyledToolsContainer>
