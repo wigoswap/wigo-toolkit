@@ -21,7 +21,7 @@ const style = {
   },
 };
 
-const Heading = styled(Text).attrs({ bold: false })<HeadingProps>`
+const Heading = styled(Text).attrs({ bold: true })<HeadingProps>`
   font-size: ${({ scale }) => style[scale || scales.MD].fontSize};
   line-height: 1.1;
 
