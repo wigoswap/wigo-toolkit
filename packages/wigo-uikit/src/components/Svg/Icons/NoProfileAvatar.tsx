@@ -5,17 +5,17 @@ import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   const theme = useTheme();
-  const primaryColor = theme.isDark ? "#3C3742" : "#e9eaeb";
-  const secondaryColor = theme.isDark ? "#666171" : "#bdc2c4";
+  const primaryColor = theme.isDark ? "#efefef" : "#efefef";
+  const secondaryColor = theme.isDark ? "#939393" : "#939393";
 
   return (
     <Svg viewBox="0 0 32 32" {...props}>
       <circle fill={primaryColor} cx="16" cy="16" r="16" />
-      <rect x="7.8" y="6" fill={secondaryColor} width="16.5" height="16.5" />
-      <path fill={secondaryColor} d="M24.2,24.9v4.8C21.8,31.2,19,32,16,32s-5.8-0.8-8.2-2.3v-4.8H24.2z" />
+      <rect fill={secondaryColor} x="7.1" y="6.9" width="17.8" height="17.8" />
+      <path fill={secondaryColor} d="M24.9,27.2v2.1C22.3,31,19.3,32,16,32s-6.3-1-8.9-2.7v-2.1H24.9z" />
       <g>
-        <circle fill={primaryColor} cx="12.3" cy="10.7" r="1.5" />
-        <circle fill={primaryColor} cx="19.7" cy="10.7" r="1.5" />
+        <circle fill={primaryColor} cx="11.8" cy="12.7" r="1.5" />
+        <circle fill={primaryColor} cx="20.2" cy="12.7" r="1.5" />
       </g>
     </Svg>
   );
