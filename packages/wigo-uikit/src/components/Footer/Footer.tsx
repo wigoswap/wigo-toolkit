@@ -41,10 +41,10 @@ const MenuItem: React.FC<FooterProps> = ({
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
           alignItems="flex-start"
-          mb={["42px", null, "36px"]}
+          mb={["-50px", null, "55px"]}
         >
           <Box display={["none", null, "block"]}>
-            <LogoWhite isDark width="160px" />
+            <LogoWhite isDark width="185px" />
           </Box>
 
           {items?.map((item) => (
@@ -56,7 +56,7 @@ const MenuItem: React.FC<FooterProps> = ({
                     href={href}
                     target="_blank"
                     rel="noreferrer noopener"
-                    color={isHighlighted ? baseColors.warning : darkColors.text}
+                    color={isHighlighted ? baseColors.wigoBlue : darkColors.text}
                     bold={false}
                   >
                     {label}
@@ -81,7 +81,9 @@ const MenuItem: React.FC<FooterProps> = ({
               href="https://wigoswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
               target="_blank"
               scale="sm"
-              endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
+              variant="secondary"
+              endIcon={<ArrowForwardIcon color={baseColors.wigoWhite} />}
+              color={baseColors.wigoWhite}
             >
               {buyWigoLabel}
             </Button>

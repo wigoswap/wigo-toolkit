@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { darkColors } from "../../theme/colors";
+import { baseColors, darkColors } from "../../theme/colors";
 import { Box, Flex } from "../Box";
 import SocialLinks from "./Components/SocialLinks";
 
@@ -23,9 +23,9 @@ export const StyledListItem = styled.li`
   text-transform: capitalize;
 
   &:first-child {
-    color: ${darkColors.secondary};
+    color: ${baseColors.wigoWhite};
+    font-size: 24px;
     font-weight: 600;
-    text-transform: uppercase;
   }
 `;
 
@@ -34,17 +34,14 @@ export const StyledIconMobileContainer = styled(Box)`
 `;
 
 export const StyledToolsContainer = styled(Flex)`
-  border-color: ${darkColors.cardBorder};
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-style: solid;
-  padding: 24px 0;
-  margin-bottom: 24px;
+  padding: 14px;
+  margin-bottom: 26px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
 
   ${({ theme }) => theme.mediaQueries.sm} {
-    border-top-width: 0;
-    border-bottom-width: 0;
-    padding: 0 0;
+    background-color: unset;
+    padding: 0;
     margin-bottom: 0;
   }
 `;
@@ -57,7 +54,7 @@ export const StyledFooterBorder = styled.div`
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 110px;
+  bottom: 100px;
   display: none;
   margin-top: 20px;
 
