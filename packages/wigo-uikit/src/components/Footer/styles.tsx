@@ -59,6 +59,7 @@ export const StyledFooterBorder = styled.div`
   left: 0;
   bottom: 110px;
   display: none;
+  margin-top: 20px;
 
   ${({ theme }) => theme.mediaQueries.sm} {
     display: block;
