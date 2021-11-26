@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.44](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.43...@wigoswap/wigo-uikit@1.9.44) (2021-11-26)
+
+
+### Bug Fixes
+
+* Fix no profile avatar ([438a101](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/438a1017bfea14482c54d7e32f5fc24a549f220e))
+
+
+
+
+
 ## [1.9.43](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.42...@wigoswap/wigo-uikit@1.9.43) (2021-11-26)
 
 
