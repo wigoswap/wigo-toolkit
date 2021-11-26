@@ -74,7 +74,7 @@ const MenuItem: React.FC<FooterProps> = ({
         >
           <Flex order={[1, null, 1]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
-              <WigoPrice wigoPriceUsd={wigoPriceUsd} color={darkColors.textSubtle as keyof Colors} />
+              <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
             <Button
               as="a"
