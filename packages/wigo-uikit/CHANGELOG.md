@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.40](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.39...@wigoswap/wigo-uikit@1.9.40) (2021-11-26)
+
+
+### Bug Fixes
+
+* Fix footer border margin ([87b3ed2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/87b3ed2263fcc7deb636aebbf4fecafba9a2798f))
+* Fix footer column order ([ffae1f1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/ffae1f198db8f9cd079dcbbf31c115a09dc73582))
+
+
+
+
+
 ## [1.9.39](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.38...@wigoswap/wigo-uikit@1.9.39) (2021-11-26)
 
 
