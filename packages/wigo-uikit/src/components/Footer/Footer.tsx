@@ -1,5 +1,5 @@
 import React from "react";
-import { baseColors, darkColors, lightColors } from "../../theme/colors";
+import { baseColors, darkColors } from "../../theme/colors";
 import { Flex, Box } from "../Box";
 import { Link } from "../Link";
 import {
@@ -12,10 +12,8 @@ import {
   StyledFooterBorder,
 } from "./styles";
 import { FooterProps } from "./types";
-import { ThemeSwitcher } from "../ThemeSwitcher";
-import LangSelector from "../LangSelector/LangSelector";
 import WigoPrice from "../WigoPrice/WigoPrice";
-import { ArrowForwardIcon, LogoWhite } from "../Svg";
+import { LogoWhite } from "../Svg";
 import { Button } from "../Button";
 import { Colors } from "../..";
 
@@ -72,7 +70,7 @@ const MenuItem: React.FC<FooterProps> = ({
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
-          <Flex order={[1, null, 1]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
+          <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
               <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
@@ -82,13 +80,12 @@ const MenuItem: React.FC<FooterProps> = ({
               target="_blank"
               scale="sm"
               variant="secondary"
-              endIcon={<ArrowForwardIcon color={baseColors.wigoWhite} />}
               color={baseColors.wigoWhite}
             >
               {buyWigoLabel}
             </Button>
           </Flex>
-          <Flex order={[2, null, 2]} alignItems="center">
+          <Flex order={[2, null, 1]} alignItems="center">
             <StyledSocialLinks />
           </Flex>
         </StyledToolsContainer>

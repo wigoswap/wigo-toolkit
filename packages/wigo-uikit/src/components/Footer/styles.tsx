@@ -50,7 +50,7 @@ export const StyledSocialLinks = styled(SocialLinks)``;
 
 export const StyledFooterBorder = styled.div`
   border-bottom: 1px solid #f0f0f0;
-  opacity: 0.2;
+  opacity: 0.12;
   position: absolute;
   width: 100%;
   left: 0;
