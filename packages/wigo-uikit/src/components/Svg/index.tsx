@@ -56,6 +56,7 @@ export { default as LoginIcon } from "./Icons/Login";
 export { default as LogoIcon } from "./Icons/Logo";
 export { default as LogoWithTextIcon } from "./Icons/LogoWithText";
 export { default as LogoWhite } from "./Icons/LogoWhite";
+export { default as LogoVertical } from "./Icons/LogoVertical";
 export { default as LogoRoundIcon } from "./Icons/LogoRound";
 export { default as MathWalletIcon } from "./Icons/MathWallet";
 export { default as LogoutIcon } from "./Icons/Logout";
