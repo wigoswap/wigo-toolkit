@@ -32,7 +32,6 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   background-color: ${({ theme }) => theme.nav.background};
   z-index: 20;
   transform: translate3d(0, 0, 0);
-  border-bottom: 1px solid #0e2031;
 
   padding-left: 16px;
   padding-right: 16px;

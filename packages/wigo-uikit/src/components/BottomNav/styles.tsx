@@ -6,8 +6,7 @@ const StyledBottomNav = styled(Flex)`
   bottom: 0px;
   width: 100%;
   padding: 5px 8px;
-  background: ${({ theme }) => theme.colors.backgroundAlt};
-  border-top: 1px solid ${({ theme }) => theme.colors.cardBorder};
+  background-color: #0c1822;
   padding-bottom: env(safe-area-inset-bottom);
   html[data-useragent*="TokenPocket_iOS"] & {
     padding-bottom: 45px;
