@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.51](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.49...@wigoswap/wigo-uikit@1.9.51) (2021-11-27)
+
+
+### Bug Fixes
+
+* Export Logo Vertical ([287fa15](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/287fa15959ef35683bf714e919d88233aa1dda16))
+
+
+
+
+
 ## [1.9.50](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.49...@wigoswap/wigo-uikit@1.9.50) (2021-11-27)
 
 
