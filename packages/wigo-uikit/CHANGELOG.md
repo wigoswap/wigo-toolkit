@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.47](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.46...@wigoswap/wigo-uikit@1.9.47) (2021-11-27)
+
+
+### Bug Fixes
+
+* Add border to menu ([cb092ff](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/cb092ff89d327c94e70bfaae779de2fb80ebb04a))
+
+
+
+
+
 ## [1.9.46](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.45...@wigoswap/wigo-uikit@1.9.46) (2021-11-26)
 
 
