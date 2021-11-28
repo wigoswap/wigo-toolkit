@@ -99,7 +99,6 @@ export { default as SmallDotIcon } from "./Icons/SmallDot";
 export { default as StarFillIcon } from "./Icons/StarFill";
 export { default as StarLineIcon } from "./Icons/StarLine";
 export { default as SwapIcon } from "./Icons/Swap";
-export { default as SwapFillIcon } from "./Icons/SwapFill";
 export { default as SwapVertIcon } from "./Icons/SwapVert";
 export { default as SyncAltIcon } from "./Icons/SyncAlt";
 export { default as TeamPlayerIcon } from "./Icons/TeamPlayer";
