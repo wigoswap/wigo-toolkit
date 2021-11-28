@@ -5,7 +5,13 @@ import { SvgProps } from "../types";
 const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 24 24" {...props}>
-      <path d="M6.5 2.5L8 4L6.5 5.5" stroke="evenodd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path
+        d="M6.5 2.5L8 4L6.5 5.5"
+        stroke="evenodd"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
       <path
         d="M8 4H6C5.20435 4 4.44129 4.31607 3.87868 4.87868C3.31607 5.44129 3 6.20435 3 7"
         stroke="evenodd"
