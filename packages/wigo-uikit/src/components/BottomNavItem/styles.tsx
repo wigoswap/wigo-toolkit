@@ -9,13 +9,6 @@ export const StyledBottomNavItem = styled.button`
   cursor: pointer;
   height: ${MOBILE_MENU_HEIGHT}px;
   padding: 4px 12px;
-  &:hover {
-    border-radius: 16px;
-  }
-  &:hover,
-  &:hover div {
-    background: ${({ theme }) => theme.colors.tertiary};
-  }
 `;
 
 export const StyledBottomNavText = styled(Text)`
