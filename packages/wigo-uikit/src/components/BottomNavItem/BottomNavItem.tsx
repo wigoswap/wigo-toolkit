@@ -20,15 +20,15 @@ const BottomNavItem: React.FC<BottomNavItemProps> = ({
           iconName={iconName}
           height="22px"
           width="21px"
-          color={isActive ? "secondary" : "textSubtle"}
+          color={isActive ? "wigoBlue" : "wigoWhite"}
           isActive={isActive}
-          activeBackgroundColor="backgroundAlt"
+          activeBackgroundColor="transparent"
         />
       )}
       <StyledBottomNavText
-        color={isActive ? "text" : "textSubtle"}
-        fontWeight={isActive ? "600" : "400"}
-        fontSize="10px"
+        color={isActive ? "wigoWhite" : "wigoWhite"}
+        fontWeight={isActive ? "400" : "400"}
+        fontSize="12px"
       >
         {label}
       </StyledBottomNavText>

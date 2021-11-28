@@ -10,6 +10,7 @@ export const baseColors = {
   warning: "#FFB237",
   wigoBlue: "rgba(55, 78, 245, 1)",
   wigoWhite: "#FFFFFF",
+  transparent: "transparent",
 };
 
 export const additionalColors = {

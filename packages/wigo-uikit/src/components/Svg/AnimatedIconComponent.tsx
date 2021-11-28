@@ -7,8 +7,8 @@ const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
 
 const AnimatedIconComponent: React.FC<IconComponentType> = ({
   iconName,
-  color = "textSubtle",
-  activeColor = "secondary",
+  color = "wigoWhite",
+  activeColor = "wigoBlue",
   activeBackgroundColor,
   isActive = false,
   ...props
