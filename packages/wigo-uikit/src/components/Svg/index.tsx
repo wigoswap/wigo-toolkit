@@ -133,12 +133,10 @@ export { default as HomeIcon } from "./Icons/Home";
 export { default as IfoIcon } from "./Icons/Ifo";
 export { default as MoonIcon } from "./Icons/Moon";
 export { default as MoreIcon } from "./Icons/More";
-export { default as NftFillIcon } from "./Icons/NftFill";
 export { default as PoolIcon } from "./Icons/Pool";
 export { default as SunIcon } from "./Icons/Sun";
 export { default as TeamBattleIcon } from "./Icons/TeamBattle";
 export { default as TicketIcon } from "./Icons/Ticket";
-export { default as EarnFillIcon } from "./Icons/EarnFill";
 export { default as TrophyIcon } from "./Icons/Trophy";
 export { default as TrophyFillIcon } from "./Icons/TrophyFill";
 
