@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.54](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.53...@wigoswap/wigo-uikit@1.9.54) (2021-11-28)
+
+
+### Bug Fixes
+
+* Fix swap icon im bottom menu ([3170406](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/31704067c662a302606c8747d6e0704b51725a68))
+
+
+
+
+
 ## [1.9.53](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.52...@wigoswap/wigo-uikit@1.9.53) (2021-11-28)
 
 
