@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.58](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.57...@wigoswap/wigo-uikit@1.9.58) (2021-11-28)
+
+
+### Bug Fixes
+
+* Fix nft icon in bottom nav ([c9e1989](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/c9e19897a8b8fe7095b6530b7a8f4dca0f2263fb))
+
+
+
+
+
 ## [1.9.57](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.56...@wigoswap/wigo-uikit@1.9.57) (2021-11-28)
 
 
