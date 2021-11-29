@@ -57,6 +57,7 @@ export const DropdownMenuDivider = styled.hr`
   border-color: ${({ theme }) => theme.colors.cardBorder};
   border-style: solid;
   border-width: 1px 0 0;
+  margin: 0;
 `;
 
 export const StyledOverlay = styled.div`
@@ -71,7 +72,7 @@ export const StyledOverlay = styled.div`
 `;
 
 export const StyledDropdownMenu = styled.div<{ $isOpen: boolean; $isBottomNav: boolean }>`
-  background-color: ${({ $isBottomNav }) => ($isBottomNav ? "#000000" : "#ffffff")};
+  background-color: #ffffff;
   border-radius: ${({ $isBottomNav }) => ($isBottomNav ? "20px 20px 0 0" : "10px")};
   pointer-events: auto;
   width: ${({ $isBottomNav }) => ($isBottomNav ? "100%" : "200px")};
