@@ -135,9 +135,9 @@ export const socials = [
   //   ],
   // },
   {
-    label: "Github",
-    icon: "Github",
-    href: "https://github.com/wigoswap/",
+    label: "Twitter",
+    icon: "Twitter",
+    href: "https://twitter.com/wigoswap",
     items: [],
   },
   {
@@ -147,9 +147,9 @@ export const socials = [
     items: [],
   },
   {
-    label: "Twitter",
-    icon: "Twitter",
-    href: "https://twitter.com/wigoswap",
+    label: "Github",
+    icon: "Github",
+    href: "https://github.com/wigoswap/",
     items: [],
   },
 ];
