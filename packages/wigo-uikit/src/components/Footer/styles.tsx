@@ -18,26 +18,36 @@ export const StyledList = styled.ul`
 `;
 
 export const StyledListItem = styled.li`
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 8px;
   text-transform: capitalize;
 
+  ${({ theme }) => theme.mediaQueries.sm} {
+    font-size: 16px;
+  }
+
   &:first-child {
     color: ${baseColors.wigoWhite};
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      font-size: 24px;
+    }
   }
 `;
 
 export const StyledIconMobileContainer = styled(Box)`
   margin-bottom: 24px;
+  text-align: center;
 `;
 
 export const StyledToolsContainer = styled(Flex)`
   padding: 14px;
   margin-bottom: 26px;
-  background-color: rgba(255, 255, 255, 0.02);
+  background-color: rgba(255, 255, 255, 0.03);
   border-radius: 10px;
+  align-items: center;
 
   ${({ theme }) => theme.mediaQueries.sm} {
     background-color: unset;

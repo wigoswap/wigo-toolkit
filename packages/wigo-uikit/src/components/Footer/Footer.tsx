@@ -70,7 +70,7 @@ const MenuItem: React.FC<FooterProps> = ({
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
-          <Flex order={[1, null, 1]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
+          <Flex order={[1, null, 1]} mb={["16px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
               <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
