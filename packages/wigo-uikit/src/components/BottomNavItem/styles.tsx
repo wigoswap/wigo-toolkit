@@ -19,4 +19,9 @@ export const StyledBottomNavText = styled(Text)`
   -webkit-box-orient: vertical;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+    outline: none !important;
+  }
 `;
