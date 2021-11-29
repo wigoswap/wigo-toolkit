@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.72](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.71...@wigoswap/wigo-uikit@1.9.72) (2021-11-29)
+
+
+### Bug Fixes
+
+* Test bottom nav dropdown menu ([a896fed](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/a896fedee9620593b05e2dd1d3cc5911d7d76490))
+
+
+
+
+
 ## [1.9.71](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.70...@wigoswap/wigo-uikit@1.9.71) (2021-11-29)
 
 
