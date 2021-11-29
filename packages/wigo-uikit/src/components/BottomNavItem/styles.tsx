@@ -18,12 +18,10 @@ export const StyledBottomNavItem = styled.button`
 
   &:focus {
     outline: none !important;
+    background: transparent;
   }
   &:hover {
     border-radius: 16px;
-  }
-  &:hover,
-  &:hover div {
     background: rgba(255, 255, 255, 0.03);
   }
 `;
