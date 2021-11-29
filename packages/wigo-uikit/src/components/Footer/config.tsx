@@ -76,12 +76,6 @@ export const footerLinks: FooterLinkType[] = [
 ];
 
 export const socials = [
-  {
-    label: "Twitter",
-    icon: "Twitter",
-    href: "https://twitter.com/wigoswap",
-    items: [],
-  },
   // {
   //   label: "Telegram",
   //   icon: "Telegram",
@@ -141,15 +135,21 @@ export const socials = [
   //   ],
   // },
   {
+    label: "Github",
+    icon: "Github",
+    href: "https://github.com/wigoswap/",
+    items: [],
+  },
+  {
     label: "Telegram",
     icon: "Telegram",
     href: "https://t.me/wigoswap",
     items: [],
   },
   {
-    label: "Github",
-    icon: "Github",
-    href: "https://github.com/wigoswap/",
+    label: "Twitter",
+    icon: "Twitter",
+    href: "https://twitter.com/wigoswap",
     items: [],
   },
 ];
