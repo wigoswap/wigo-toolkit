@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.67](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.66...@wigoswap/wigo-uikit@1.9.67) (2021-11-29)
+
+
+### Bug Fixes
+
+* Fix github icon ([1031a1a](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/1031a1af325764af7b5ea1d89f4b3312f22230cd))
+
+
+
+
+
 ## [1.9.66](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.65...@wigoswap/wigo-uikit@1.9.66) (2021-11-29)
 
 
