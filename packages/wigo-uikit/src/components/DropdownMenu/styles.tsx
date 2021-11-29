@@ -41,15 +41,15 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
   }
 `;
 
-export const StyledDropdownMenuItemContainer = styled.div`
+export const StyledDropdownMenuItemContainer = styled.div<{ $isBottomNav: boolean }>`
   &:first-child > ${DropdownMenuItem} {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: ${({ $isBottomNav }) => ($isBottomNav ? "20px" : "10px")};
+    border-top-right-radius: ${({ $isBottomNav }) => ($isBottomNav ? "20px" : "10px")};
   }
 
   &:last-child > ${DropdownMenuItem} {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: ${({ $isBottomNav }) => ($isBottomNav ? "0" : "10px")};
+    border-bottom-right-radius: ${({ $isBottomNav }) => ($isBottomNav ? "0" : "10px")};
   }
 `;
 

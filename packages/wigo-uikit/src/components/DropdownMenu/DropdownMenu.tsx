@@ -148,7 +148,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
               );
               const isActive = href === activeItem;
               return (
-                <StyledDropdownMenuItemContainer key={index}>
+                <StyledDropdownMenuItemContainer key={index} $isBottomNav={isBottomNav}>
                   {type === DropdownMenuItemType.BUTTON && (
                     <DropdownMenuItem $isActive={isActive} type="button" {...itemProps}>
                       {MenuItemContent}
