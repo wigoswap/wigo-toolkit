@@ -63,21 +63,21 @@ export const StyledOverlay = styled.div`
   content: "";
   position: fixed;
   top: 0;
-  bottom: 55px;
+  bottom: 70px;
   left: 0;
   right: 0;
-  background-color: ${({ theme }) => `${theme.colors.text}99`};
-  backdrop-filter: blur(2px);
+  background-color: ${({ theme }) => `${theme.colors.overlay}`};
+  opacity: 0.8;
 `;
 
 export const StyledDropdownMenu = styled.div<{ $isOpen: boolean; $isBottomNav: boolean }>`
-  background-color: ${({ theme }) => theme.colors.wigoWhite};
-  border-radius: 10px;
+  background-color: ${({ $isBottomNav }) => ($isBottomNav ? "#000000" : "#ffffff")};
+  border-radius: ${({ $isBottomNav }) => ($isBottomNav ? "20px 20px 0 0" : "10px")};
   pointer-events: auto;
-  width: ${({ $isBottomNav }) => ($isBottomNav ? "calc(100% - 32px)" : "200px")};
+  width: ${({ $isBottomNav }) => ($isBottomNav ? "100%" : "200px")};
   visibility: visible;
   z-index: 1001;
-  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 20%);
+  box-shadow: ${({ $isBottomNav }) => ($isBottomNav ? "unset" : "0px 0px 10px 0px rgb(0 0 0 / 20%)")};
 
   ${({ $isOpen }) =>
     !$isOpen &&
