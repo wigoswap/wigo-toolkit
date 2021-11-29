@@ -66,7 +66,7 @@ const MenuItem: React.FC<FooterProps> = ({
         </Flex>
         <StyledFooterBorder />
         <StyledToolsContainer
-          order={[1, null, 3]}
+          order={[3, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >

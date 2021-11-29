@@ -18,13 +18,9 @@ export const StyledList = styled.ul`
 `;
 
 export const StyledListItem = styled.li`
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 8px;
   text-transform: capitalize;
-
-  ${({ theme }) => theme.mediaQueries.sm} {
-    font-size: 16px;
-  }
 
   &:first-child {
     color: ${baseColors.wigoWhite};
