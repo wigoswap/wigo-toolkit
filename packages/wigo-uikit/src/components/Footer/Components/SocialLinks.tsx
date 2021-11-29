@@ -12,7 +12,7 @@ const SocialLinks: React.FC<FlexProps> = ({ ...props }) => (
     {socials.map((social, index) => {
       const iconProps = {
         iconName: social.icon,
-        width: "32px",
+        width: "30px",
         color: darkColors.wigoWhite,
         style: { cursor: "pointer" },
       };
