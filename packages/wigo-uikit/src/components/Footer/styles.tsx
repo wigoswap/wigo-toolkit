@@ -22,16 +22,16 @@ export const StyledListItem = styled.li`
   margin-bottom: 8px;
   text-transform: capitalize;
 
-  ${({ theme }) => theme.mediaQueries.sm} {
-    font-size: 16px;
-  }
-
   &:first-child {
     color: ${baseColors.wigoWhite};
     font-size: 22px;
     font-weight: 600;
+  }
 
-    ${({ theme }) => theme.mediaQueries.sm} {
+  ${({ theme }) => theme.mediaQueries.sm} {
+    font-size: 16px;
+
+    &:first-child {
       font-size: 24px;
     }
   }
