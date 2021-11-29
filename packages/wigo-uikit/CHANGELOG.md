@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.69](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.68...@wigoswap/wigo-uikit@1.9.69) (2021-11-29)
+
+
+### Bug Fixes
+
+* Fix footer menu text size ([e9c551f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/e9c551f656d46d0d1fad7970620dc945cca752d2))
+
+
+
+
+
 ## [1.9.68](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.67...@wigoswap/wigo-uikit@1.9.68) (2021-11-29)
 
 
