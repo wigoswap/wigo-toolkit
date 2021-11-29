@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.61](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.60...@wigoswap/wigo-uikit@1.9.61) (2021-11-29)
+
+
+### Bug Fixes
+
+* Fix social media icons ([ccc06f7](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/ccc06f76027fd76d67b57bd3891e568b5a0bdb8c))
+
+
+
+
+
 ## [1.9.60](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.59...@wigoswap/wigo-uikit@1.9.60) (2021-11-28)
 
 
