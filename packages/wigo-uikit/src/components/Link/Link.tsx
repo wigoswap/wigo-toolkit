@@ -8,6 +8,15 @@ const StyledLink = styled(Text)<LinkProps>`
   display: flex;
   align-items: center;
   width: fit-content;
+  user-select: none;
+  -webkit-box-orient: vertical;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+    outline: none !important;
+  }
   &:hover {
     text-decoration: underline;
   }

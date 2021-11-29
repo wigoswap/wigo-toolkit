@@ -57,6 +57,15 @@ const StyledButton = styled.button<BaseButtonProps>`
   opacity: ${getOpacity};
   outline: 0;
   transition: background-color 0.2s, opacity 0.2s;
+  user-select: none;
+  -webkit-box-orient: vertical;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &:focus {
+    outline: none !important;
+  }
 
   &:hover:not(:disabled):not(.wigo-button--disabled):not(.wigo-button--disabled):not(:active) {
     opacity: 0.65;
