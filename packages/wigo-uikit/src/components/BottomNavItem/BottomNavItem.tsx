@@ -22,7 +22,7 @@ const BottomNavItem: React.FC<BottomNavItemProps> = ({
           width="21px"
           color={isActive ? "wigoBlue" : "wigoWhite"}
           isActive={isActive}
-          activeBackgroundColor="wigoWhite"
+          activeBackgroundColor="transparent"
         />
       )}
       <StyledBottomNavText
