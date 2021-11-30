@@ -7,7 +7,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.wigoswap.finance/contact-us",
+        href: "https://docs.wigoswap.io/contact-us",
       },
       {
         label: "Blog",
@@ -15,11 +15,11 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Community",
-        href: "https://docs.wigoswap.finance/contact-us/telegram",
+        href: "https://docs.wigoswap.io/contact-us/telegram",
       },
       {
         label: "WIGO",
-        href: "https://docs.wigoswap.finance/tokenomics/wigo",
+        href: "https://docs.wigoswap.io/tokenomics/wigo",
       },
       {
         label: "—",
@@ -36,15 +36,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.wigoswap.finance/contact-us/customer-support",
+        href: "Support https://docs.wigoswap.io/contact-us/customer-support",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.wigoswap.finance/help/troubleshooting",
+        href: "https://docs.wigoswap.io/help/troubleshooting",
       },
       {
         label: "Guides",
-        href: "https://docs.wigoswap.finance/get-started",
+        href: "https://docs.wigoswap.io/get-started",
       },
     ],
   },
@@ -57,7 +57,7 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Documentation",
-        href: "https://docs.wigoswap.finance",
+        href: "https://docs.wigoswap.io",
       },
       {
         label: "Bug Bounty",
@@ -65,11 +65,11 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Audits",
-        href: "https://docs.wigoswap.finance/help/faq#is-wigoswap-safe-has-wigoswap-been-audited",
+        href: "https://docs.wigoswap.io/help/faq#is-wigoswap-safe-has-wigoswap-been-audited",
       },
       {
         label: "Careers",
-        href: "https://docs.wigoswap.finance/hiring/become-a-chef",
+        href: "https://docs.wigoswap.io/hiring/become-a-chef",
       },
     ],
   },

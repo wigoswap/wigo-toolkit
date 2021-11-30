@@ -26,11 +26,11 @@ export const links: MenuItemsType[] = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.wigoswap.finance",
+        href: "https://exchange.wigoswap.io",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.wigoswap.finance/#/pool",
+        href: "https://exchange.wigoswap.io/#/pool",
       },
     ],
   },
@@ -143,7 +143,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://wigoswap.finance",
+    href: "https://wigoswap.io",
     label: "Link",
   },
   {

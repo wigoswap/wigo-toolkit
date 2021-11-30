@@ -26,7 +26,7 @@ const PriceLink = styled.a`
 const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "wigoWhite" }) => {
   return wigoPriceUsd ? (
     <PriceLink
-      href="https://wigoswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+      href="https://wigoswap.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
       target="_blank"
     >
       <WigoRoundIcon width="24px" mr="8px" />

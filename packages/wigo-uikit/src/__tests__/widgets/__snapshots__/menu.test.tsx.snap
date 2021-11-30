@@ -1516,7 +1516,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   class="c11 c12"
-                  href="/https://exchange.wigoswap.finance"
+                  href="/https://exchange.wigoswap.io"
                 >
                   Exchange
                 </a>
@@ -1526,7 +1526,7 @@ exports[`renders correctly 1`] = `
               >
                 <a
                   class="c11 c12"
-                  href="/https://exchange.wigoswap.finance/#/pool"
+                  href="/https://exchange.wigoswap.io/#/pool"
                 >
                   Liquidity
                 </a>
@@ -1787,7 +1787,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             class="c25"
-            href="https://wigoswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+            href="https://wigoswap.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
             target="_blank"
           >
             <svg
@@ -2122,7 +2122,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             class="c40"
-            href="/https://exchange.wigoswap.finance"
+            href="/https://exchange.wigoswap.io"
           >
             Exchange
           </a>
@@ -2136,7 +2136,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             class="c40"
-            href="/https://exchange.wigoswap.finance/#/pool"
+            href="/https://exchange.wigoswap.io/#/pool"
           >
             Liquidity
           </a>
@@ -2258,7 +2258,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance/contact-us"
+                    href="https://docs.wigoswap.io/contact-us"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2284,7 +2284,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance/contact-us/telegram"
+                    href="https://docs.wigoswap.io/contact-us/telegram"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2297,7 +2297,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance/tokenomics/wigo"
+                    href="https://docs.wigoswap.io/tokenomics/wigo"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2344,7 +2344,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="Support https://docs.wigoswap.finance/contact-us/customer-support"
+                    href="Support https://docs.wigoswap.io/contact-us/customer-support"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2357,7 +2357,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance/help/troubleshooting"
+                    href="https://docs.wigoswap.io/help/troubleshooting"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2370,7 +2370,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance/get-started"
+                    href="https://docs.wigoswap.io/get-started"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2405,7 +2405,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance"
+                    href="https://docs.wigoswap.io"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2431,7 +2431,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance/help/faq#is-wigoswap-safe-has-wigoswap-been-audited"
+                    href="https://docs.wigoswap.io/help/faq#is-wigoswap-safe-has-wigoswap-been-audited"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2444,7 +2444,7 @@ exports[`renders correctly 1`] = `
                   <a
                     class="c55 c56"
                     color="#FFFFFF"
-                    href="https://docs.wigoswap.finance/hiring/become-a-chef"
+                    href="https://docs.wigoswap.io/hiring/become-a-chef"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -3088,7 +3088,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c25"
-                    href="https://wigoswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                    href="https://wigoswap.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                     target="_blank"
                   >
                     <svg
@@ -3243,7 +3243,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c87"
-                  href="https://wigoswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                  href="https://wigoswap.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                   scale="sm"
                   target="_blank"
                 >

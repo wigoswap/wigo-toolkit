@@ -20,7 +20,7 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
   background: transparent;
   color: ${({ theme, disabled, $isActive }) => getTextColor({ theme, disabled, $isActive })};
   cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
-  font-weight: ${({ $isActive = false }) => ($isActive ? "600" : "400")};
+  font-weight: ${({ $isActive = false }) => ($isActive ? "400" : "400")};
   display: flex;
   font-size: 16px;
   height: 48px;

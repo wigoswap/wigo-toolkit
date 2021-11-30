@@ -12,7 +12,7 @@ const ItemsMock: DropdownMenuItems[] = [
   },
   {
     label: "LP Migration",
-    href: "https://v1exchange.wigoswap.finance/#/migrate",
+    href: "https://v1exchange.wigoswap.io/#/migrate",
     type: DropdownMenuItemType.EXTERNAL_LINK,
   },
   {
