@@ -12,10 +12,10 @@ export const StyledMenuItemContainer = styled.div<StyledMenuItemProps>`
         content: "";
         position: absolute;
         bottom: 0;
-        height: 4px;
+        height: 3px;
         width: 100%;
-        background-color: ${theme.colors.primary};
-        border-radius: 2px 2px 0 0;
+        background-color: ${theme.colors.wigoWhite};
+        border-radius: 5px 5px 0 0;
       }
     `};
 `;
