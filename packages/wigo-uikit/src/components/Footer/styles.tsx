@@ -5,7 +5,6 @@ import SocialLinks from "./Components/SocialLinks";
 
 export const StyledFooter = styled(Flex)`
   background: ${darkColors.footer};
-  border-top: 1px solid #000000;
 `;
 
 export const StyledList = styled.ul`
