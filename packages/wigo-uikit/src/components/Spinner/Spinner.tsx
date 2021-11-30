@@ -19,6 +19,7 @@ const Container = styled.div`
 const RotatingWigoIcon = styled(Logo)`
   animation: ${rotate} 3s cubic-bezier(0.9, 0, 0.2, 1.56) 1s infinite reverse both;
   transform: translate3d(0, 0, 0);
+  fill: #374ef5;
 `;
 
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
