@@ -22,6 +22,8 @@ const StyledLink = styled(Link)`
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
+    &:hover {
+      opacity: 0.65;
   }
   .desktop-icon {
     width: 160px;
