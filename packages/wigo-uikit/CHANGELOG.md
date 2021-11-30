@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.89](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.88...@wigoswap/wigo-uikit@1.9.89) (2021-11-30)
+
+
+### Bug Fixes
+
+* Fix card color ([cdfbd65](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/cdfbd65c3086285d296efb12da3cba1190b32cf9))
+
+
+
+
+
 ## [1.9.88](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.87...@wigoswap/wigo-uikit@1.9.88) (2021-11-30)
 
 
