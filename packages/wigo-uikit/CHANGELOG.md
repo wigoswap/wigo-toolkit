@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.85](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.84...@wigoswap/wigo-uikit@1.9.85) (2021-11-30)
+
+
+### Bug Fixes
+
+* Change wigoswap.finance to wigoswap.io ([24be970](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/24be970de9de9f2a03a8cf8edc61b6549d6bf9f4))
+
+
+
+
+
 ## [1.9.84](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.83...@wigoswap/wigo-uikit@1.9.84) (2021-11-30)
 
 
