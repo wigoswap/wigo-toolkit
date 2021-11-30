@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.86](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.85...@wigoswap/wigo-uikit@1.9.86) (2021-11-30)
+
+
+### Bug Fixes
+
+* Fix spinner color ([d0a6dc6](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/d0a6dc60d6ccdc9c83441e39eb9759e110050b7e))
+* Fix spinner color ([93adeee](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/93adeee2c989f92a5ff6a92b0410aa00e0f533e7))
+
+
+
+
+
 ## [1.9.85](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.84...@wigoswap/wigo-uikit@1.9.85) (2021-11-30)
 
 
