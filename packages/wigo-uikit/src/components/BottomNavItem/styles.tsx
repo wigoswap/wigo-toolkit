@@ -9,6 +9,7 @@ export const StyledBottomNavItem = styled.button`
   cursor: pointer;
   height: ${MOBILE_MENU_HEIGHT}px;
   padding: 4px 12px;
+  min-width: 57px;
   user-select: none;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
