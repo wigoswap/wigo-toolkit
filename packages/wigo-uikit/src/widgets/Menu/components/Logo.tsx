@@ -10,8 +10,8 @@ interface Props {
 }
 
 const blink = keyframes`
-  0%,  100% { transform: scaleY(1); } 
-  50% { transform:  scaleY(0.1); } 
+  0%,  100% { transform: scale(1); } 
+  50% { transform:  scale(0.9); } 
 `;
 
 const StyledLink = styled(Link)`
@@ -23,7 +23,8 @@ const StyledLink = styled(Link)`
       display: none;
     }
     &:hover {
-      opacity: 0.65;
+      animation: ${blink} 1s ease-in-out 1;
+    }
   }
   .desktop-icon {
     width: 160px;
