@@ -23,7 +23,7 @@ const StyledLink = styled(Link)`
       display: none;
     }
     &:hover {
-      animation: ${blink} 1s ease-in-out 1;
+      animation: ${blink} 0.5s linear 1;
     }
   }
   .desktop-icon {
