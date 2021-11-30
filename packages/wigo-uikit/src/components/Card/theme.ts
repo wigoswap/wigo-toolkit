@@ -14,7 +14,7 @@ export const light: CardTheme = {
     bubblegum: lightColors.gradients.bubblegum,
     violet: lightColors.gradients.violet,
   },
-  dropShadow: "drop-shadow(0px 1px 4px rgba(25, 19, 38, 0.15))",
+  dropShadow: "unset",
 };
 
 export const dark: CardTheme = {
@@ -29,5 +29,5 @@ export const dark: CardTheme = {
     bubblegum: lightColors.gradients.bubblegum,
     violet: darkColors.gradients.violet,
   },
-  dropShadow: "drop-shadow(0px 1px 4px rgba(25, 19, 38, 0.15))",
+  dropShadow: "unset",
 };

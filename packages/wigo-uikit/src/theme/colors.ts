@@ -63,7 +63,7 @@ export const darkColors: Colors = {
   secondary: "#9A6AFF",
   background: "#050b0d",
   backgroundDisabled: "#3c3742",
-  backgroundAlt: "#27262c",
+  backgroundAlt: "#0C1822",
   backgroundAlt2: "rgba(39, 38, 44, 0.7)",
   primaryMenu: "rgba(6, 24, 42, 1)",
   secondaryMenu: "rgba(6, 24, 42, 0.75)",
