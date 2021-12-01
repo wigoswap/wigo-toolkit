@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.105](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.104...@wigoswap/wigo-uikit@1.9.105) (2021-12-01)
+
+
+### Bug Fixes
+
+* Fix modal height ([d70fb68](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/d70fb68dd24ca751eb2fe58c9661becf9833353a))
+
+
+
+
+
 ## [1.9.104](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.103...@wigoswap/wigo-uikit@1.9.104) (2021-12-01)
 
 
