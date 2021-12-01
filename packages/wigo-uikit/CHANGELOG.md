@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.91](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.90...@wigoswap/wigo-uikit@1.9.91) (2021-12-01)
+
+
+### Bug Fixes
+
+* Update cog icon ([47fe353](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/47fe353ce34f7bbfcb004baa634eb4aa48b532b9))
+
+
+
+
+
 ## [1.9.90](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.89...@wigoswap/wigo-uikit@1.9.90) (2021-12-01)
 
 
