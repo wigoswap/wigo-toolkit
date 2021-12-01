@@ -24,7 +24,7 @@ const StyledLink = styled(Link)`
       display: none;
     }
     &:active {
-      animation: ${blink} 0.5s linear 1;
+      animation: ${blink} 0.1s linear 1;
     }
   }
   .desktop-icon {
