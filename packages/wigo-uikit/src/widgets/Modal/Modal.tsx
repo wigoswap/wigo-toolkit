@@ -13,7 +13,8 @@ const Modal: React.FC<ModalProps> = ({
   hideCloseButton = false,
   bodyPadding = "24px",
   headerBackground = "transparent",
-  minWidth = "320px",
+  titleColor = "textMenu",
+  minWidth = "285px",
   ...props
 }) => {
   const theme = useTheme();
@@ -22,7 +23,7 @@ const Modal: React.FC<ModalProps> = ({
       <ModalHeader background={getThemeValue(`colors.${headerBackground}`, headerBackground)(theme)}>
         <ModalTitle>
           {onBack && <ModalBackButton onBack={onBack} />}
-          <Heading>{title}</Heading>
+          <Heading color="titleColor">{title}</Heading>
         </ModalTitle>
         {!hideCloseButton && <ModalCloseButton onDismiss={onDismiss} />}
       </ModalHeader>
