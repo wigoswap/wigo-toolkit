@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.102](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.101...@wigoswap/wigo-uikit@1.9.102) (2021-12-01)
+
+
+### Bug Fixes
+
+* Fix input color ([183cf9e](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/183cf9e12d1788b7969612c4d343f367d131fb60))
+
+
+
+
+
 ## [1.9.101](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.100...@wigoswap/wigo-uikit@1.9.101) (2021-12-01)
 
 
