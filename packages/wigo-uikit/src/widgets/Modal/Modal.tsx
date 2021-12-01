@@ -23,7 +23,7 @@ const Modal: React.FC<ModalProps> = ({
       <ModalHeader background={getThemeValue(`colors.${headerBackground}`, headerBackground)(theme)}>
         <ModalTitle>
           {onBack && <ModalBackButton onBack={onBack} />}
-          <Heading color={titleColor} fontWeight="400">
+          <Heading color={titleColor} fontWeight="600">
             {title}
           </Heading>
         </ModalTitle>
