@@ -34,7 +34,7 @@ export const ModalCloseButton: React.FC<{ onDismiss: ModalProps["onDismiss"] }> 
 
 export const ModalBackButton: React.FC<{ onBack: ModalProps["onBack"] }> = ({ onBack }) => {
   return (
-    <IconButton variant="text" onClick={onBack} area-label="go back" mr="-8px">
+    <IconButton variant="text" onClick={onBack} area-label="go back" ml="-8px">
       <ArrowBackIcon color="textSubtle" />
     </IconButton>
   );
