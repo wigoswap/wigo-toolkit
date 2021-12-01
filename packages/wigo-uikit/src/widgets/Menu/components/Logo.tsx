@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import Flex from "../../../components/Box/Flex";
 import { LogoIcon, LogoWhite } from "../../../components/Svg";
 
@@ -8,11 +8,6 @@ interface Props {
   isDark: boolean;
   href: string;
 }
-
-const blink = keyframes`
-  0%,  100% { transform: scale(1); } 
-  50% { transform:  scale(0.9); } 
-`;
 
 const StyledLink = styled(Link)`
   display: flex;
@@ -24,7 +19,7 @@ const StyledLink = styled(Link)`
       display: none;
     }
     &:active {
-      animation: ${blink} 0.1s linear 1;
+      transform: scale(0.9);
     }
   }
   .desktop-icon {
