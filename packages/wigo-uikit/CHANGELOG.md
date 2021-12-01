@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.107](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.106...@wigoswap/wigo-uikit@1.9.107) (2021-12-01)
+
+
+### Bug Fixes
+
+* Fix modal ([b0c8d90](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/b0c8d907dedf3287e8a40b7b5e2154f0ab85236f))
+* Fix modal ([fe188cf](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/fe188cf78809040bc48cb6e39f0ae75617ec1b25))
+
+
+
+
+
 ## [1.9.106](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.105...@wigoswap/wigo-uikit@1.9.106) (2021-12-01)
 
 
