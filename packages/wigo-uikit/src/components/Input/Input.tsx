@@ -36,7 +36,7 @@ const Input = styled.input<InputProps>`
   background-color: ${({ theme }) => theme.colors.input};
   border: 0;
   border-radius: 10px;
-  color: ${({ theme }) => theme.colors.text};
+  color: ${({ theme }) => theme.colors.wigoBlue};
   display: block;
   font-size: 16px;
   height: ${getHeight};
