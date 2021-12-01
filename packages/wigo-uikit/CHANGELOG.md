@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.95](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.94...@wigoswap/wigo-uikit@1.9.95) (2021-12-01)
+
+
+### Bug Fixes
+
+* Change modal colors ([0924592](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/0924592b67253b8cbc9223194d5bc7c00f22937f))
+* Fix menu button effect ([2422085](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/2422085a18bef6f9a9452188ec01012720ef35f0))
+
+
+
+
+
 ## [1.9.94](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.93...@wigoswap/wigo-uikit@1.9.94) (2021-12-01)
 
 
