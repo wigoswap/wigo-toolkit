@@ -23,7 +23,7 @@ const StyledLink = styled(Link)`
     ${({ theme }) => theme.mediaQueries.nav} {
       display: none;
     }
-    &:hover {
+    &:active {
       animation: ${blink} 0.5s linear 1;
     }
   }
