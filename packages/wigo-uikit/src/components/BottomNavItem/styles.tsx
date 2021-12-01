@@ -20,7 +20,7 @@ export const StyledBottomNavItem = styled.button`
   &:focus {
     outline: none !important;
   }
-  &:hover {
+  &:active {
     border-radius: 14px;
     background: rgba(255, 255, 255, 0.03);
   }
