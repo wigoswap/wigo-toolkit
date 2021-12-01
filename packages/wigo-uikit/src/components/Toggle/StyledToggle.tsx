@@ -63,11 +63,11 @@ export const Input = styled.input<InputProps>`
   }
 
   &:focus + ${Handle} {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    box-shadow: none;
   }
 
   &:hover + ${Handle}:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    box-shadow: none;
   }
 `;
 
@@ -76,7 +76,7 @@ const StyledToggle = styled.div<StyleToggleProps>`
   background-color: ${({ theme, $checked, $checkedColor, $defaultColor }) =>
     theme.colors[$checked ? $checkedColor : $defaultColor]};
   border-radius: 24px;
-  box-shadow: ${({ theme }) => theme.shadows.inset};
+  box-shadow: none;
   cursor: pointer;
   display: inline-flex;
   height: ${getScale("toggleHeight")};
