@@ -37,7 +37,7 @@ export const lightColors: Colors = {
   dropdown: "#F6F6F6",
   dropdownDeep: "#EEEEEE",
   invertedContrast: "#FFFFFF",
-  input: "#eeeaf4",
+  input: "rgba(55, 78, 245, 1)",
   inputSecondary: "#d7caec",
   text: "#280D5F",
   textDisabled: "#BDC2C4",
