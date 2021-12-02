@@ -21,9 +21,9 @@ const Checkbox = styled.input.attrs({ type: "checkbox" })<CheckboxProps>`
   width: ${getScale};
   vertical-align: middle;
   transition: background-color 0.2s ease-in-out;
-  border: 2px solid theme.colors.input};
+  border: 2px solid ${({ theme }) => theme.colors.inputSecondary};
   border-radius: 6px;
-  background-color: ${({ theme }) => theme.colors.inputSecondary};
+  background-color: transparent;
 
   &:after {
     content: "";
@@ -52,6 +52,7 @@ const Checkbox = styled.input.attrs({ type: "checkbox" })<CheckboxProps>`
 
   &:checked {
     background-color: ${({ theme }) => theme.colors.wigoBlue};
+    border: 2px solid ${({ theme }) => theme.colors.wigoBlue};
     &:after {
       border-color: white;
     }
