@@ -9,7 +9,7 @@ interface StyledButtonMenuProps extends ButtonMenuProps {
 }
 
 const getBackgroundColor = ({ theme, variant }: StyledButtonMenuProps) => {
-  return theme.colors[variant === variants.SUBTLE ? "inputSecondary" : "tertiary"];
+  return theme.colors[variant === variants.SUBTLE ? "inputSecondary" : "inputSecondary"];
 };
 
 const StyledButtonMenu = styled.div<StyledButtonMenuProps>`
