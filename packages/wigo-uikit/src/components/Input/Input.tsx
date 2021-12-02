@@ -33,8 +33,8 @@ const getHeight = ({ scale = scales.MD }: StyledInputProps) => {
 };
 
 const Input = styled.input<InputProps>`
-  background-color: ${({ theme }) => theme.colors.input};
-  border: 0;
+  background-color: transparent;
+  border: 2px solid ${({ theme }) => theme.colors.input};
   border-radius: 10px;
   color: ${({ theme }) => theme.colors.wigoBlue};
   display: block;
@@ -49,7 +49,8 @@ const Input = styled.input<InputProps>`
   }
 
   &:disabled {
-    background-color: ${({ theme }) => theme.colors.backgroundDisabled};
+    background-color: transparent;
+    border: 2px solid ${({ theme }) => theme.colors.backgroundDisabled};
     box-shadow: none;
     color: ${({ theme }) => theme.colors.textDisabled};
     cursor: not-allowed;
