@@ -21,6 +21,8 @@ const StyledButtonMenu = styled.div<StyledButtonMenuProps>`
   & > button,
   & > a {
     flex: ${({ fullWidth }) => (fullWidth ? 1 : "auto")};
+    backgroundcolor: ${({ theme }) => theme.colors.wigoBlue};
+    color: white;
   }
 
   & > button + button,
@@ -39,8 +41,8 @@ const StyledButtonMenu = styled.div<StyledButtonMenuProps>`
         opacity: 0.65;
 
         & > button:disabled {
-          background-color: transparent;
-          color: ${variant === variants.PRIMARY ? theme.colors.primary : theme.colors.textSubtle};
+          background-color: transparent !important;
+          color: ${variant === variants.PRIMARY ? theme.colors.primary : theme.colors.textSubtle} !important;
         }
     `;
     }

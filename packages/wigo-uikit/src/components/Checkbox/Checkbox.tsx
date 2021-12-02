@@ -42,6 +42,7 @@ const Checkbox = styled.input.attrs({ type: "checkbox" })<CheckboxProps>`
   }
 
   &:hover:not(:disabled):not(:checked) {
+    border: 2px solid ${({ theme }) => theme.colors.wigoBlue};
     box-shadow: none;
   }
 
