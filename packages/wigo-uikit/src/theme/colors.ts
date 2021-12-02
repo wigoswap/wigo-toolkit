@@ -81,7 +81,7 @@ export const darkColors: Colors = {
   textSubtle: "#C7C7C7",
   disabled: "#524B63",
   skelton: "rgba(117, 117, 117, 0.22)",
-  footer: "#0C1822",
+  footer: "rgba(31, 31, 31, 0.25)",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",

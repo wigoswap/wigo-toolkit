@@ -6,7 +6,7 @@ const StyledBottomNav = styled(Flex)`
   bottom: 0px;
   width: 100%;
   padding: 5px 8px;
-  background-color: #0c1822;
+  background-color: rgba(6, 24, 42, 1);
 `;
 
 export default StyledBottomNav;
