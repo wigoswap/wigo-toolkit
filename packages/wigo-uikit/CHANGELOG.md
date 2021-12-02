@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.111](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.110...@wigoswap/wigo-uikit@1.9.111) (2021-12-02)
+
+
+### Bug Fixes
+
+* Fix checkbox and Button Menu ([66a5b3c](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/66a5b3c3d8631a0139f31bd9f82a81fc888f05b1))
+* Fix checkbox and Button Menu ([a39e196](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/a39e196dedcc8427b785b1fd39055d455bc05a9f))
+
+
+
+
+
 ## [1.9.110](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.109...@wigoswap/wigo-uikit@1.9.110) (2021-12-02)
 
 
