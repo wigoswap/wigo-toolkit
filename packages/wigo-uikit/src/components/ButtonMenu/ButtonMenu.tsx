@@ -21,7 +21,7 @@ const StyledButtonMenu = styled.div<StyledButtonMenuProps>`
   & > button,
   & > a {
     flex: ${({ fullWidth }) => (fullWidth ? 1 : "auto")};
-    backgroundcolor: ${({ theme }) => theme.colors.wigoBlue};
+    background-color: ${({ theme }) => theme.colors.wigoBlue};
     color: white;
   }
 
