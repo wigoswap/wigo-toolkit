@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.122](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.121...@wigoswap/wigo-uikit@1.9.122) (2021-12-03)
+
+
+### Bug Fixes
+
+* Fix card borderRadius ([290af17](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/290af1722059601423c18d211a679dad60bf5bc5))
+
+
+
+
+
 ## [1.9.121](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.120...@wigoswap/wigo-uikit@1.9.121) (2021-12-03)
 
 
