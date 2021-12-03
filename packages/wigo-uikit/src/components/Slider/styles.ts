@@ -54,8 +54,8 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
 
 export const WiggySlider = styled.div`
   position: absolute;
-  left: 14px;
-  width: calc(100% - 14px);
+  left: 0;
+  width: 100%;
 `;
 
 export const StyledInput = styled.input<StyledInputProps>`
