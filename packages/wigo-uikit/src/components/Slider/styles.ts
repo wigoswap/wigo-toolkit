@@ -1,7 +1,7 @@
 import { InputHTMLAttributes } from "react";
 import styled from "styled-components";
 import Text from "../Text/Text";
-import LogoRound from "../Svg/Icons/WigoRound"
+import LogoRound from "../Svg/Icons/WigoRound";
 
 interface SliderLabelProps {
   progress: string;
@@ -51,7 +51,6 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
   text-align: center;
   min-width: 24px; // Slider thumb size
 `;
-
 
 export const WiggySlider = styled.div`
   position: absolute;
