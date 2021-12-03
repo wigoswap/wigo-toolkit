@@ -14,7 +14,7 @@ const getBackgroundColor = ({ theme, variant }: StyledButtonMenuProps) => {
 
 const StyledButtonMenu = styled.div<StyledButtonMenuProps>`
   background-color: ${getBackgroundColor};
-  border-radius: 16px;
+  border-radius: 10px;
   display: ${({ fullWidth }) => (fullWidth ? "flex" : "inline-flex")};
   width: ${({ fullWidth }) => (fullWidth ? "100%" : "auto")};
 

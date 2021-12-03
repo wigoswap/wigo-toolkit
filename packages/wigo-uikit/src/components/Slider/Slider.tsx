@@ -42,7 +42,6 @@ const Slider: React.FC<SliderProps> = ({
   const displayValueLabel = isMax ? "MAX" : valueLabel;
   return (
     <Box position="relative" height="48px" {...props}>
-      <WiggyButt disabled={disabled} />
       <WiggySlider>
         <BarBackground disabled={disabled} />
         <BarProgress style={{ width: progressWidth }} disabled={disabled} />

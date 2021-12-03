@@ -1,9 +1,7 @@
 import { InputHTMLAttributes } from "react";
 import styled from "styled-components";
 import Text from "../Text/Text";
-import wiggyHeadMain from "./svg/wiggyhead-main.svg";
-import wiggyHeadMax from "./svg/wiggyhead-max.svg";
-import wiggyButt from "./svg/wiggybutt.svg";
+import LogoRound from "../Svg/Icons/WigoRound"
 
 interface SliderLabelProps {
   progress: string;
@@ -23,12 +21,12 @@ const getCursorStyle = ({ disabled = false }: DisabledProp) => {
 
 const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   -webkit-appearance: none;
-  background-image: url(${isMax ? wiggyHeadMax : wiggyHeadMain});
+  background-image: url(${isMax ? LogoRound : LogoRound});
   background-color: transparent;
   border: 0;
   cursor: ${getCursorStyle};
   width: 24px;
-  height: 32px;
+  height: 24px;
   filter: ${disabled ? "grayscale(100%)" : "none"};
   transform: translate(-2px, -2px);
   transition: 200ms transform;
@@ -41,8 +39,8 @@ const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
 export const SliderLabelContainer = styled.div`
   bottom: 0;
   position: absolute;
-  left: 14px;
-  width: calc(100% - 30px);
+  left: 0;
+  width: 100%;
 `;
 
 export const SliderLabel = styled(Text)<SliderLabelProps>`
@@ -54,13 +52,6 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
   min-width: 24px; // Slider thumb size
 `;
 
-export const WiggyButt = styled.div<DisabledProp>`
-  background: url(${wiggyButt}) no-repeat;
-  height: 32px;
-  filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
-  position: absolute;
-  width: 15px;
-`;
 
 export const WiggySlider = styled.div`
   position: absolute;
@@ -88,7 +79,7 @@ export const StyledInput = styled.input<StyledInputProps>`
 
 export const BarBackground = styled.div<DisabledProp>`
   background-color: ${({ theme, disabled }) => theme.colors[disabled ? "textDisabled" : "inputSecondary"]};
-  height: 2px;
+  height: 4px;
   position: absolute;
   top: 18px;
   width: 100%;
@@ -97,7 +88,7 @@ export const BarBackground = styled.div<DisabledProp>`
 export const BarProgress = styled.div<DisabledProp>`
   background-color: ${({ theme }) => theme.colors.primary};
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
-  height: 10px;
+  height: 4px;
   position: absolute;
   top: 18px;
 `;
