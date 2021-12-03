@@ -28,7 +28,7 @@ const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   width: 24px;
   height: 24px;
   filter: ${disabled ? "grayscale(100%)" : "none"};
-  transform: translate(0, 1px);
+  transform: translate(-1px, 2px);
   transition: 200ms transform;
 
   &:hover {
