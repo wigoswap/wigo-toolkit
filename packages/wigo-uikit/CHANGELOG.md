@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.116](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.115...@wigoswap/wigo-uikit@1.9.116) (2021-12-03)
+
+
+### Bug Fixes
+
+* Fix user select in body ([186aed8](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/186aed8df4335eb2103f08e0c00f4764b15cf6f3))
+
+
+
+
+
 ## [1.9.115](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.114...@wigoswap/wigo-uikit@1.9.115) (2021-12-02)
 
 
