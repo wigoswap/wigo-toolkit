@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.120](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.119...@wigoswap/wigo-uikit@1.9.120) (2021-12-03)
+
+
+### Bug Fixes
+
+* Fix slider icon transform ([2575014](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/25750140f5054a5890d2a12faa643185d1207ddb))
+
+
+
+
+
 ## [1.9.119](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.118...@wigoswap/wigo-uikit@1.9.119) (2021-12-03)
 
 
