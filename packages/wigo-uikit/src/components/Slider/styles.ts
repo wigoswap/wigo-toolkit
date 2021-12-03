@@ -28,11 +28,11 @@ const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   width: 24px;
   height: 24px;
   filter: ${disabled ? "grayscale(100%)" : "none"};
-  transform: translate(-2px, -2px);
+  transform: translate(0, 1px);
   transition: 200ms transform;
 
   &:hover {
-    transform: ${disabled ? "scale(1) translate(-2px, -2px)" : "scale(1.1) translate(-3px, -3px)"};
+    transform: ${disabled ? "scale(1) translate(-2px, 0)" : "scale(1.1) translate(-3px, 0)"};
   }
 `;
 
