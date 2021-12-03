@@ -1,14 +1,6 @@
 import React, { ChangeEvent } from "react";
 import { Box } from "../Box";
-import {
-  WiggySlider,
-  BarBackground,
-  BarProgress,
-  WiggyButt,
-  StyledInput,
-  SliderLabel,
-  SliderLabelContainer,
-} from "./styles";
+import { WiggySlider, BarBackground, BarProgress, StyledInput, SliderLabel, SliderLabelContainer } from "./styles";
 import SliderProps from "./types";
 
 const Slider: React.FC<SliderProps> = ({
