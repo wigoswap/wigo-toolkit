@@ -1,7 +1,7 @@
 import { InputHTMLAttributes } from "react";
 import styled from "styled-components";
 import Text from "../Text/Text";
-import LogoRound from "../Svg/Icons/WigoRound";
+import WigoRound from "./svg/wigo.svg";
 
 interface SliderLabelProps {
   progress: string;
@@ -21,7 +21,7 @@ const getCursorStyle = ({ disabled = false }: DisabledProp) => {
 
 const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   -webkit-appearance: none;
-  background-image: url(${isMax ? LogoRound : LogoRound});
+  background-image: url(${isMax ? WigoRound : WigoRound});
   background-color: transparent;
   border: 0;
   cursor: ${getCursorStyle};
