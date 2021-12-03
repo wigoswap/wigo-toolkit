@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.117](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.116...@wigoswap/wigo-uikit@1.9.117) (2021-12-03)
+
+
+### Bug Fixes
+
+* Fix Logo Round ([4823ed9](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/4823ed90cb6768f459a24f5c135af1f1701c07e2))
+* Update Slider ([d1f4bae](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/d1f4baeb511cb5c0bbe00eb8f82df78ce9b58d2d))
+* Update Slider ([20a9f77](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/20a9f77d78223ea664b7dca4a878975bbd66cf51))
+* Update Slider ([98a7b7e](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/98a7b7ebb3da0b81780520f8fd013a2a33adb123))
+
+
+
+
+
 ## [1.9.116](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.115...@wigoswap/wigo-uikit@1.9.116) (2021-12-03)
 
 
