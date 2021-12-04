@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.124](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.123...@wigoswap/wigo-uikit@1.9.124) (2021-12-04)
+
+
+### Bug Fixes
+
+* Fix background Alt 2 ([cf26489](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/cf26489a027b9e8a9e2ae6f3922444c7130d6b5f))
+
+
+
+
+
 ## [1.9.123](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.122...@wigoswap/wigo-uikit@1.9.123) (2021-12-03)
 
 
