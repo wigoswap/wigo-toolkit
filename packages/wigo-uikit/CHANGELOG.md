@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.125](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.124...@wigoswap/wigo-uikit@1.9.125) (2021-12-04)
+
+
+### Bug Fixes
+
+* Fix message border radius ([6079044](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/6079044ad5fdb7b0e6f25690aa203a341b85bc9a))
+
+
+
+
+
 ## [1.9.124](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.123...@wigoswap/wigo-uikit@1.9.124) (2021-12-04)
 
 
