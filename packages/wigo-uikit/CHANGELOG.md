@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.126](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.125...@wigoswap/wigo-uikit@1.9.126) (2021-12-05)
+
+
+### Bug Fixes
+
+* Update Fantom Icon ([4d2f940](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/4d2f940a877a967214b8c6982d979acf8d86bee0))
+
+
+
+
+
 ## [1.9.125](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.124...@wigoswap/wigo-uikit@1.9.125) (2021-12-04)
 
 
