@@ -13,7 +13,7 @@ const Modal: React.FC<ModalProps> = ({
   hideCloseButton = false,
   bodyPadding = "24px",
   headerBackground = "transparent",
-  titleColor = "textMenu",
+  titleColor = "textDark",
   minWidth = "285px",
   ...props
 }) => {
