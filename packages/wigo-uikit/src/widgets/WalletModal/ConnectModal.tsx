@@ -21,6 +21,7 @@ interface Props {
 
 const WalletWrapper = styled(Box)`
   border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder};
+  border-top: 1px solid ${({ theme }) => theme.colors.cardBorder};
 `;
 
 /**
@@ -57,9 +58,9 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
 
   return (
     <ModalContainer minWidth="320px">
-      <ModalHeader background={getThemeValue("colors.gradients.bubblegum")(theme)}>
+      <ModalHeader>
         <ModalTitle>
-          <Heading>{t("Connect Wallet")}</Heading>
+          <Heading color="textDark">{t("Connect Wallet")}</Heading>
         </ModalTitle>
         <ModalCloseButton onDismiss={onDismiss} />
       </ModalHeader>
@@ -75,14 +76,13 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
           </Grid>
         </WalletWrapper>
         <Box p="24px">
-          <Text textAlign="center" color="textSubtle" as="p" mb="16px">
+          <Text small textAlign="center" color="textSubtle" as="p" mb="16px">
             {t("Haven’t got a crypto wallet yet?")}
           </Text>
           <Button
             as="a"
             href="https://docs.wigoswap.io/get-started/connection-guide"
-            variant="subtle"
-            width="100%"
+            variant="text"
             {...getExternalLinkProps()}
           >
             {t("Learn How to Connect")}
