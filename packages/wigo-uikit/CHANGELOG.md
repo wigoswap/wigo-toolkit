@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.131](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.130...@wigoswap/wigo-uikit@1.9.131) (2021-12-06)
+
+
+### Bug Fixes
+
+* Fix close button in modal ([52c286e](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/52c286e1eacec705cd9a1cf5c5f25c7afb28ad6e))
+
+
+
+
+
 ## [1.9.130](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.129...@wigoswap/wigo-uikit@1.9.130) (2021-12-06)
 
 
