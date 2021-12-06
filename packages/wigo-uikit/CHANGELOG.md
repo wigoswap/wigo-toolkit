@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.133](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.132...@wigoswap/wigo-uikit@1.9.133) (2021-12-06)
+
+
+### Bug Fixes
+
+* Fix connect modal ([0c314e5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/0c314e57d14332176ed2d9d71ceef49ac2c06d05))
+
+
+
+
+
 ## [1.9.132](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.131...@wigoswap/wigo-uikit@1.9.132) (2021-12-06)
 
 
