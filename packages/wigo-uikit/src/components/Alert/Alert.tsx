@@ -45,8 +45,7 @@ const getIcon = (variant: AlertProps["variant"] = variants.INFO) => {
 };
 
 const IconLabel = styled.div<ThemedIconLabel>`
-  background-color: ${getThemeColor};
-  border-radius: 16px 0 0 16px;
+  border-radius: 20px 0 0 20px;
   color: ${({ theme }) => theme.alert.background};
   padding: 12px;
 `;
@@ -61,26 +60,25 @@ const Details = styled.div<{ hasHandler: boolean }>`
 `;
 
 const CloseHandler = styled.div`
-  border-radius: 0 16px 16px 0;
+  border-radius: 0 20px 20px 0;
   right: 8px;
   position: absolute;
   top: 8px;
 `;
 
-const StyledAlert = styled(Flex)`
+const StyledAlert = styled(Flex)<ThemedIconLabel>`
   position: relative;
-  background-color: ${({ theme }) => theme.alert.background};
-  border-radius: 16px;
-  box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
+  background-color: ${getThemeColor};
+  border-radius: 20px;
 `;
 
 const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
   const Icon = getIcon(variant);
 
   return (
-    <StyledAlert>
+    <StyledAlert variant={variant} hasDescription={false}>
       <IconLabel variant={variant} hasDescription={!!children}>
-        <Icon color="currentColor" width="24px" />
+        <Icon color="white" width="24px" />
       </IconLabel>
       <Details hasHandler={!!onClick}>
         <Text bold>{title}</Text>
@@ -89,7 +87,7 @@ const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
       {onClick && (
         <CloseHandler>
           <IconButton scale="sm" variant="text" onClick={onClick}>
-            <CloseIcon width="24px" color="currentColor" />
+            <CloseIcon width="24px" color="white" />
           </IconButton>
         </CloseHandler>
       )}
