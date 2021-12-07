@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.134](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.133...@wigoswap/wigo-uikit@1.9.134) (2021-12-07)
+
+
+### Bug Fixes
+
+* Add wigo header gradient ([09d1879](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/09d18790499cf8e223a9653db5e3b3b93dd98d2e))
+
+
+
+
+
 ## [1.9.133](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.132...@wigoswap/wigo-uikit@1.9.133) (2021-12-06)
 
 
