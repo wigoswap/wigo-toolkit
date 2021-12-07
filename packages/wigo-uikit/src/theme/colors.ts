@@ -54,6 +54,7 @@ export const lightColors: Colors = {
     violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     wigoDark: "linear-gradient(252.78deg, #161C1E -0.77%, #0C1317 80.47%)",
+    wigoHeader: "linear-gradient(180deg, #3B58F6 0%, #112A36 199.18%)",
   },
 };
 
@@ -91,5 +92,6 @@ export const darkColors: Colors = {
     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     wigoDark: "linear-gradient(252.78deg, #161C1E -0.77%, #0C1317 80.47%)",
+    wigoHeader: "linear-gradient(180deg, #3B58F6 0%, #112A36 199.18%)",
   },
 };
