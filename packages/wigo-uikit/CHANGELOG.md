@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.135](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.134...@wigoswap/wigo-uikit@1.9.135) (2021-12-07)
+
+
+### Bug Fixes
+
+* Fix token image shaddow ([ea51cd1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/ea51cd1a6838c232f26a45f444f3c6b4c7a23aba))
+
+
+
+
+
 ## [1.9.134](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.133...@wigoswap/wigo-uikit@1.9.134) (2021-12-07)
 
 
