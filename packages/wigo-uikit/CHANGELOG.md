@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.136](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.135...@wigoswap/wigo-uikit@1.9.136) (2021-12-11)
+
+
+### Bug Fixes
+
+* Fix balance input ([ed9d188](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/ed9d188faac6c448ae5308e28ddf3ded1b1e356b))
+
+
+
+
+
 ## [1.9.135](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.134...@wigoswap/wigo-uikit@1.9.135) (2021-12-07)
 
 
