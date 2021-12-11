@@ -17,10 +17,9 @@ export const UnitContainer = styled(Text)`
 `;
 
 export const StyledBalanceInput = styled(Box)<{ isWarning: BalanceInputProps["isWarning"] }>`
-  background-color: ${({ theme }) => theme.colors.input};
-  border: 1px solid ${({ theme }) => theme.colors.inputSecondary};
-  border-radius: 16px;
-  box-shadow: ${({ theme, isWarning }) => theme.shadows[isWarning ? "warning" : "inset"]};
+  background-color: transparent;
+  border: 1px solid ${({ theme }) => theme.colors.input};
+  border-radius: 10px;
   padding: 8px 16px;
 `;
 
