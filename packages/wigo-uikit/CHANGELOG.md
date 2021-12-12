@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.141](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.140...@wigoswap/wigo-uikit@1.9.141) (2021-12-12)
+
+
+### Bug Fixes
+
+* Fix wigoPrice decimal ([3bc64d4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/3bc64d42e984312c84a6cd70498552364b64418b))
+
+
+
+
+
 ## [1.9.140](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.139...@wigoswap/wigo-uikit@1.9.140) (2021-12-12)
 
 
