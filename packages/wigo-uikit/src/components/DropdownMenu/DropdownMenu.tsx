@@ -161,10 +161,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
                   )}
                   {type === DropdownMenuItemType.EXTERNAL_LINK && (
                     <DropdownMenuItem $isActive={isActive} as="a" href={href} target="_blank" {...itemProps}>
-                      <Flex alignItems="center" justifyContent="space-between" width="100%">
-                        {label}
-                        <IconComponent iconName="Logout" />
-                      </Flex>
+                      {label}
                     </DropdownMenuItem>
                   )}
                   {type === DropdownMenuItemType.DIVIDER && <DropdownMenuDivider />}
