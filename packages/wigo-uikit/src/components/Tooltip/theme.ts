@@ -1,5 +1,5 @@
 import { shadows } from "../../theme/base";
-import { darkColors, lightColors } from "../../theme/colors";
+import { darkColors, lightColors, baseColors } from "../../theme/colors";
 import { TooltipTheme } from "./types";
 
 export const light: TooltipTheme = {
@@ -9,7 +9,7 @@ export const light: TooltipTheme = {
 };
 
 export const dark: TooltipTheme = {
-  background: lightColors.backgroundAlt,
-  text: lightColors.text,
+  background: baseColors.wigoWhite,
+  text: darkColors.textDark,
   boxShadow: shadows.tooltip,
 };
