@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.143](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.142...@wigoswap/wigo-uikit@1.9.143) (2021-12-31)
+
+
+### Bug Fixes
+
+* Fix textDark color ([c146c0e](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/c146c0e8bc0c4735ea4c6e4ada8558ceb9c220ca))
+
+
+
+
+
 ## [1.9.142](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.141...@wigoswap/wigo-uikit@1.9.142) (2021-12-13)
 
 
