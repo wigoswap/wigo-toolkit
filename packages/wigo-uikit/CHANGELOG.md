@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.10.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.10.0...@wigoswap/wigo-uikit@1.10.1) (2022-01-03)
+
+
+### Bug Fixes
+
+* Fix Coinbase svg icon ([fe35c37](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/fe35c3738acbfb25dbaa17c2f16fd81edef5ac3d))
+
+
+
+
+
 # [1.10.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.143...@wigoswap/wigo-uikit@1.10.0) (2022-01-03)
 
 
