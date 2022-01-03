@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.143...@wigoswap/wigo-uikit@1.10.0) (2022-01-03)
+
+
+### Features
+
+* Add coinbase wallet ([05e6173](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/05e6173eda677cb6447995c6bffc89fc91b9cb1b))
+
+
+
+
+
 ## [1.9.143](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.9.142...@wigoswap/wigo-uikit@1.9.143) (2021-12-31)
 
 
