@@ -79,14 +79,16 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
           <Text small textAlign="center" color="textSubtle" as="p" mb="16px">
             {t("Haven’t got a crypto wallet yet?")}
           </Text>
-          <Button
-            as="a"
-            href="https://docs.wigoswap.io/get-started/connection-guide"
-            variant="text"
-            {...getExternalLinkProps()}
-          >
-            {t("Learn How to Connect")}
-          </Button>
+          <div style={{ textAlign: "center" }}>
+            <Button
+              as="a"
+              href="https://docs.wigoswap.io/get-started/connect-your-wallet-to-wigoswap"
+              variant="text"
+              {...getExternalLinkProps()}
+            >
+              {t("Learn How to Connect")}
+            </Button>
+          </div>
         </Box>
       </ModalBody>
     </ModalContainer>

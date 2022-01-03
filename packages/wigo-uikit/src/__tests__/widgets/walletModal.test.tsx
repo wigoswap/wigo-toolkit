@@ -655,7 +655,7 @@ it("renders ConnectModal correctly", () => {
             </p>
             <a
               class="c22"
-              href="https://docs.wigoswap.io/get-started/connection-guide"
+              href="https://docs.wigoswap.io/get-started/connect-your-wallet-to-wigoswap"
               rel="noreferrer noopener"
               scale="md"
               target="_blank"

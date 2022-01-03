@@ -89,7 +89,7 @@ export { default as PresentNoneIcon } from "./Icons/PresentNone";
 export { default as RefreshIcon } from "./Icons/Refresh";
 export { default as ResourcesIcon } from "./Icons/Resources";
 export { default as ResourcesFilledIcon } from "./Icons/ResourcesFilled";
-export { default as SafePalIcon } from "./Icons/SafePal";
+export { default as CoinbaseIcon } from "./Icons/Coinbase";
 export { default as SearchIcon } from "./Icons/Search";
 export { default as SellIcon } from "./Icons/Sell";
 export { default as ShareIcon } from "./Icons/Share";
