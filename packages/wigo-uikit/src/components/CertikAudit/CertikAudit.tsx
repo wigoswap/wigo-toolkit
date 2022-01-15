@@ -15,7 +15,7 @@ const CertikLink = styled.a`
 const CertikAudit: React.FC<Props> = ({ certikURL }) => {
   return (
     <CertikLink href={certikURL} target="_blank">
-      <Certik width="100px" mr="25px" />
+      <Certik width="95px" mr="25px" />
     </CertikLink>
   );
 };
