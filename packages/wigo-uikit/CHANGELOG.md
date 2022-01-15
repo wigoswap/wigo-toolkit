@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.11.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.11.0...@wigoswap/wigo-uikit@1.11.1) (2022-01-15)
+
+
+### Bug Fixes
+
+* Add certik logo to footer ([7abd4e4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/7abd4e492bb90b3d5fe9fd278be3673936c5d9c6))
+
+
+
+
+
 # [1.11.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.10.1...@wigoswap/wigo-uikit@1.11.0) (2022-01-15)
 
 
