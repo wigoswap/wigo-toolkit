@@ -57,6 +57,7 @@ const Menu: React.FC<NavProps> = ({
   currentLang,
   setLang,
   wigoPriceUsd,
+  certikURL,
   links,
   subLinks,
   footerLinks,
@@ -142,6 +143,7 @@ const Menu: React.FC<NavProps> = ({
             setLang={setLang}
             currentLang={currentLang}
             wigoPriceUsd={wigoPriceUsd}
+            certikURL={certikURL}
             buyWigoLabel={buyWigoLabel}
             mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}
           />

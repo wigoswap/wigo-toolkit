@@ -26,6 +26,7 @@ export interface NavProps {
   isDark: boolean;
   toggleTheme: (isDark: boolean) => void;
   wigoPriceUsd?: number;
+  certikURL?: string;
   currentLang: string;
   buyWigoLabel: string;
   langs: Language[];
