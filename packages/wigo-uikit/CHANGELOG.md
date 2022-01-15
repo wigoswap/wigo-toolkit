@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.11.1...@wigoswap/wigo-uikit@1.12.0) (2022-01-15)
+
+
+### Features
+
+* Add certkAudit component ([030eeca](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/030eecabd4bf0b55eab6896a5ae2a1342f622868))
+
+
+
+
+
 ## [1.11.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.11.0...@wigoswap/wigo-uikit@1.11.1) (2022-01-15)
 
 
