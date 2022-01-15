@@ -13,8 +13,7 @@ import {
 } from "./styles";
 import { FooterProps } from "./types";
 import WigoPrice from "../WigoPrice/WigoPrice";
-import { LogoWhite } from "../Svg";
-import { Button } from "../Button";
+import { Certik, LogoWhite } from "../Svg";
 import { Colors } from "../..";
 
 const MenuItem: React.FC<FooterProps> = ({
@@ -72,6 +71,7 @@ const MenuItem: React.FC<FooterProps> = ({
         >
           <Flex order={[1, null, 1]} mb={["16px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
+              <Certik />
               <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
           </Flex>
