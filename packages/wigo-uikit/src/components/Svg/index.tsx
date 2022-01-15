@@ -19,6 +19,7 @@ export { default as WiggyCardsIcon } from "./Icons/WiggyCards";
 export { default as WiggyPlaceholderIcon } from "./Icons/WiggyPlaceholder";
 export { default as CameraIcon } from "./Icons/Camera";
 export { default as Cards } from "./Icons/Cards";
+export { default as Certik } from "./Icons/Certik";
 export { default as CardViewIcon } from "./Icons/CardView";
 export { default as CalculateIcon } from "./Icons/Calculate";
 export { default as CircleOutlineIcon } from "./Icons/CircleOutline";
