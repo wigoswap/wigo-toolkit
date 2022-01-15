@@ -74,9 +74,9 @@ const MenuItem: React.FC<FooterProps> = ({
         >
           <Flex order={[1, null, 1]} mb={["16px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="25px" display={["block", null, "none"]}>
-              <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
-              <br />
               <CertikAudit certikURL={certikURL} />
+              <br />
+              <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
             <Box mr="25px" display={["none", null, "block"]}>
               <CertikAudit certikURL={certikURL} />
