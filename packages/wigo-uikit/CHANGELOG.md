@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.12.0...@wigoswap/wigo-uikit@1.12.1) (2022-01-15)
+
+
+### Bug Fixes
+
+* Fix certikAudit component ([e3db336](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/e3db3368292ac8f66a2881c0595bdfa942397044))
+* Fix certikAudit component ([aaa2858](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/aaa2858c5f1800f0cdc39d31a039bbe7ab87ed85))
+* Fix certikURL ([12bd551](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/12bd551e74b3b7149ebb317ca68836ce457cd263))
+
+
+
+
+
 # [1.12.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.11.1...@wigoswap/wigo-uikit@1.12.0) (2022-01-15)
 
 
