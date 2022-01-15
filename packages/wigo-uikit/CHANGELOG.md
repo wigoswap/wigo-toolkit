@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.11.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.10.1...@wigoswap/wigo-uikit@1.11.0) (2022-01-15)
+
+
+### Features
+
+* Add Certik Logo ([f2fba6f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/f2fba6fdd50ebce4063effb20b04f0bd00968de3))
+
+
+
+
+
 ## [1.10.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.10.0...@wigoswap/wigo-uikit@1.10.1) (2022-01-03)
 
 
