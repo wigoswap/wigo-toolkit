@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.13.0...@wigoswap/wigo-uikit@1.13.1) (2022-01-17)
+
+
+### Bug Fixes
+
+* Fix Radio color ([e36d388](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/e36d3884f7c21371916730c7518f04d84aec08dc))
+
+
+
+
+
 # [1.13.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.12.3...@wigoswap/wigo-uikit@1.13.0) (2022-01-15)
 
 
