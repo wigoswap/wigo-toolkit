@@ -5,20 +5,20 @@ import { RadioProps, scales } from "./types";
 const getScale = ({ scale }: RadioProps) => {
   switch (scale) {
     case scales.SM:
-      return "24px";
+      return "20px";
     case scales.MD:
     default:
-      return "32px";
+      return "24px";
   }
 };
 
 const getCheckedScale = ({ scale }: RadioProps) => {
   switch (scale) {
     case scales.SM:
-      return "12px";
+      return "14px";
     case scales.MD:
     default:
-      return "20px";
+      return "18px";
   }
 };
 
@@ -34,32 +34,31 @@ const Radio = styled.input.attrs({ type: "radio" })<RadioProps>`
   transition: background-color 0.2s ease-in-out;
   border: 0;
   border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.input};
-  box-shadow: ${({ theme }) => theme.shadows.inset};
+  background-color: ${({ theme }) => theme.colors.inputSecondary};
 
   &:after {
     border-radius: 50%;
     content: "";
     height: ${getCheckedScale};
-    left: 6px;
+    left: 3px;
     position: absolute;
-    top: 6px;
+    top: 3px;
     width: ${getCheckedScale};
   }
 
   &:hover:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    background-color: ${({ theme }) => theme.colors.wigoBlue};
   }
 
   &:focus {
     outline: none;
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    background-color: ${({ theme }) => theme.colors.wigoBlue};
   }
 
   &:checked {
-    background-color: ${({ theme }) => theme.colors.success};
+    background-color: ${({ theme }) => theme.colors.inputSecondary};
     &:after {
-      background-color: ${({ theme }) => theme.radio.handleBackground};
+      background-color: ${({ theme }) => theme.colors.wigoBlue};
     }
   }
 
