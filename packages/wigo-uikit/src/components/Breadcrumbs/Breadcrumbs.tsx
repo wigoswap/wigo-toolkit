@@ -31,10 +31,10 @@ const StyledBreadcrumbs = styled.ul`
   list-style-type: none;
 
   a {
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.textSubtle};
 
     &:hover {
-      color: ${({ theme }) => theme.colors.primaryBright};
+      color: ${({ theme }) => theme.colors.wigoWhite};
     }
   }
 
