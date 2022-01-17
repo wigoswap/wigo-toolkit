@@ -7,7 +7,7 @@ import { BreadcrumbsProps } from "./types";
 
 const Separator = styled.div`
   align-items: center;
-  color: ${({ theme }) => theme.colors.textDisabled};
+  color: ${({ theme }) => theme.colors.textSubtle};
   display: flex;
   justify-content: center;
   padding-left: 4px;
@@ -19,8 +19,8 @@ const Separator = styled.div`
   }
 
   ${({ theme }) => theme.mediaQueries.md} {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 `;
 
