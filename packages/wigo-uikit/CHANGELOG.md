@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.13.3...@wigoswap/wigo-uikit@1.13.4) (2022-01-18)
+
+
+### Bug Fixes
+
+* Add watchlist icon ([7e298a3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/7e298a3f6ac5ee499260cacea425fb1267f969f8))
+
+
+
+
+
 ## [1.13.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.13.2...@wigoswap/wigo-uikit@1.13.3) (2022-01-18)
 
 
