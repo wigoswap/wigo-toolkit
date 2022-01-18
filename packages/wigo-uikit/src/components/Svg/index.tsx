@@ -124,6 +124,8 @@ export { default as WalletConnectIcon } from "./Icons/WalletConnect";
 export { default as WalletIcon } from "./Icons/Wallet";
 export { default as WalletFilledIcon } from "./Icons/WalletFilled";
 export { default as WaitIcon } from "./Icons/Wait";
+export { default as WatchlistFillIcon } from "./Icons/WatchlistFill";
+export { default as WatchlistLineIcon } from "./Icons/WatchlistLine";
 export { default as FarmIcon } from "./Icons/Farm";
 export { default as GroupsIcon } from "./Icons/Groups";
 export { default as HamburgerIcon } from "./Icons/Hamburger";
