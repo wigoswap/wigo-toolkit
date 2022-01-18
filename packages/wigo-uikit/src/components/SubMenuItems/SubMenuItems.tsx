@@ -6,7 +6,7 @@ import { SubMenuItemsProps } from "./types";
 
 const SubMenuItems: React.FC<SubMenuItemsProps> = ({ items = [], activeItem, ...props }) => {
   return (
-    <StyledSubMenuItems justifyContent={["start", null, "center"]} {...props} pl={["12px", null, "0px"]}>
+    <StyledSubMenuItems justifyContent="center" {...props}>
       {items.map(
         ({ label, href }) =>
           label && (
