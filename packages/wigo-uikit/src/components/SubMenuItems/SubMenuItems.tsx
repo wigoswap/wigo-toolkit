@@ -10,7 +10,7 @@ const SubMenuItems: React.FC<SubMenuItemsProps> = ({ items = [], activeItem, ...
       {items.map(
         ({ label, href }) =>
           label && (
-            <Box key={label} mr="20px">
+            <Box key={label} mr="10px" ml="10px">
               <MenuItem href={href} isActive={href === activeItem} variant="subMenu">
                 {label}
               </MenuItem>
