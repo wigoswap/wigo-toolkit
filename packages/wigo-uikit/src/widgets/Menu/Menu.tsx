@@ -116,10 +116,14 @@ const Menu: React.FC<NavProps> = ({
         </Flex>
         <Flex alignItems="center">
           {!isMobile && (
-            <Box mr="24px">
-              <WigoPrice wigoPriceUsd={wigoPriceUsd} />
-              <FtmPrice ftmPriceUsd={ftmPriceUsd} />
-            </Box>
+            <>
+              <Box mr="24px">
+                <FtmPrice ftmPriceUsd={ftmPriceUsd} />
+              </Box>
+              <Box mr="24px">
+                <WigoPrice wigoPriceUsd={wigoPriceUsd} />
+              </Box>
+            </>
           )}
           {/* <Box mt="4px">
             <LangSelector

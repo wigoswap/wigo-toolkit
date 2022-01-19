@@ -13,6 +13,7 @@ import {
 } from "./styles";
 import { FooterProps } from "./types";
 import WigoPrice from "../WigoPrice/WigoPrice";
+import FtmPrice from "../FtmPrice/FtmPrice";
 import { LogoWhite } from "../Svg";
 import { Colors } from "../..";
 import { CertikAudit } from "../CertikAudit";
@@ -77,10 +78,15 @@ const MenuItem: React.FC<FooterProps> = ({
             <Box mr="25px" display={["block", null, "none"]}>
               <CertikAudit certikURL={certikURL} />
               <br />
+              <FtmPrice ftmPriceUsd={ftmPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
+              <br />
               <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
             <Box mr="25px" display={["none", null, "block"]}>
               <CertikAudit certikURL={certikURL} />
+            </Box>
+            <Box display={["none", null, "block"]}>
+              <FtmPrice ftmPriceUsd={ftmPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
             <Box display={["none", null, "block"]}>
               <WigoPrice wigoPriceUsd={wigoPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
