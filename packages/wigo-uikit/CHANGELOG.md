@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.14.0...@wigoswap/wigo-uikit@1.15.0) (2022-01-19)
+
+
+### Features
+
+* Add ftmPrice component ([5c90ff4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/5c90ff453f3a2cb4b708888e983762344f52288a))
+
+
+
+
+
 # [1.14.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.13.7...@wigoswap/wigo-uikit@1.14.0) (2022-01-19)
 
 
