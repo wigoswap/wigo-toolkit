@@ -33,7 +33,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({
   const clickTimeRef = useRef(openMenuTimeout);
   const { styles, attributes } = usePopper(targetRef, tooltipRef, {
     placement: isBottomNav ? "top" : "bottom-start",
-    modifiers: [{ name: "offset", options: { offset: [0, isBottomNav ? 6 : 0] } }],
+    modifiers: [{ name: "offset", options: { offset: [0, isBottomNav ? 0 : 0] } }],
   });
 
   /**
