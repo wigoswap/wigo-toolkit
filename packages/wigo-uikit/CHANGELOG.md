@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.0...@wigoswap/wigo-uikit@1.15.1) (2022-01-19)
+
+
+### Bug Fixes
+
+* Fix ftmPrice margin in footer ([3b5cc6f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/3b5cc6fad268f6ea461244d8968a14e82928edcf))
+
+
+
+
+
 # [1.15.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.14.0...@wigoswap/wigo-uikit@1.15.0) (2022-01-19)
 
 
