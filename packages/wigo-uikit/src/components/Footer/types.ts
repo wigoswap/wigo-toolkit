@@ -12,6 +12,7 @@ export type FooterProps = {
   isDark: boolean;
   toggleTheme: (isDark: boolean) => void;
   wigoPriceUsd?: number;
+  ftmPriceUsd?: number;
   certikURL?: string;
   currentLang: string;
   langs: Language[];

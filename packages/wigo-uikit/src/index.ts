@@ -7,6 +7,7 @@ export * from "./components/Button";
 export * from "./components/ButtonMenu";
 export * from "./components/Card";
 export * from "./components/WigoPrice";
+export * from "./components/FtmPrice";
 export * from "./components/Checkbox";
 export * from "./components/Dropdown";
 export * from "./components/FallingWiggies";

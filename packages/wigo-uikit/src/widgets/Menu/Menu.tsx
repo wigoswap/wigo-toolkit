@@ -9,6 +9,7 @@ import MenuItems from "../../components/MenuItems/MenuItems";
 import { SubMenuItems } from "../../components/SubMenuItems";
 import { useMatchBreakpoints } from "../../hooks";
 import WigoPrice from "../../components/WigoPrice/WigoPrice";
+import FtmPrice from "../../components/FtmPrice/FtmPrice";
 import Logo from "./components/Logo";
 import { MENU_HEIGHT, MOBILE_MENU_HEIGHT } from "./config";
 import { NavProps } from "./types";
@@ -57,6 +58,7 @@ const Menu: React.FC<NavProps> = ({
   currentLang,
   setLang,
   wigoPriceUsd,
+  ftmPriceUsd,
   certikURL,
   links,
   subLinks,
@@ -116,6 +118,7 @@ const Menu: React.FC<NavProps> = ({
           {!isMobile && (
             <Box mr="24px">
               <WigoPrice wigoPriceUsd={wigoPriceUsd} />
+              <FtmPrice ftmPriceUsd={ftmPriceUsd} />
             </Box>
           )}
           {/* <Box mt="4px">
@@ -143,6 +146,7 @@ const Menu: React.FC<NavProps> = ({
             setLang={setLang}
             currentLang={currentLang}
             wigoPriceUsd={wigoPriceUsd}
+            ftmPriceUsd={ftmPriceUsd}
             certikURL={certikURL}
             buyWigoLabel={buyWigoLabel}
             mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}

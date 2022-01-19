@@ -76,6 +76,7 @@ export { default as OpenNewIcon } from "./Icons/OpenNew";
 export { default as WigosIcon } from "./Icons/Wigos";
 export { default as PencilIcon } from "./Icons/Pencil";
 export { default as WigoRoundIcon } from "./Icons/WigoRound";
+export { default as FtmRoundIcon } from "./Icons/FtmRound";
 export { default as PocketWatchIcon } from "./Icons/PocketWatch";
 export { default as PlayCircleOutlineIcon } from "./Icons/PlayCircleOutline";
 export { default as PredictionsIcon } from "./Icons/Predictions";

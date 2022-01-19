@@ -26,6 +26,7 @@ const MenuItem: React.FC<FooterProps> = ({
   langs,
   setLang,
   wigoPriceUsd,
+  ftmPriceUsd,
   certikURL,
   buyWigoLabel,
   ...props
