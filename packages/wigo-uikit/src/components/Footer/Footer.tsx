@@ -85,7 +85,7 @@ const MenuItem: React.FC<FooterProps> = ({
             <Box mr="25px" display={["none", null, "block"]}>
               <CertikAudit certikURL={certikURL} />
             </Box>
-            <Box mr="20px" display={["none", null, "block"]}>
+            <Box mr="23px" display={["none", null, "block"]}>
               <FtmPrice ftmPriceUsd={ftmPriceUsd} color={baseColors.wigoWhite as keyof Colors} />
             </Box>
             <Box display={["none", null, "block"]}>

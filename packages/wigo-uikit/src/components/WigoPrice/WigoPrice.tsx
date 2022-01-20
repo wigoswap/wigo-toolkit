@@ -33,7 +33,7 @@ const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "wigoWhite" }) => {
       <Text color={color}>{`$${wigoPriceUsd.toFixed(5)}`}</Text>
     </PriceLink>
   ) : (
-    <Skeleton width={80} height={22} />
+    <Skeleton width={100} height={22} />
   );
 };
 
