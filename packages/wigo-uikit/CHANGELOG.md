@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.1...@wigoswap/wigo-uikit@1.15.2) (2022-01-20)
+
+
+### Bug Fixes
+
+* Some Fixes in ftmPRice ([6c3590f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/6c3590f98889ed64d926d9ffd38f49104509cc0b))
+
+
+
+
+
 ## [1.15.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.0...@wigoswap/wigo-uikit@1.15.1) (2022-01-19)
 
 
