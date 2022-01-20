@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.2...@wigoswap/wigo-uikit@1.15.3) (2022-01-20)
+
+
+### Bug Fixes
+
+* Fix WigoPrice Skeleton width ([2c2c249](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/2c2c249ab3929c5d8fcd0d95a5be3632cdb43e33))
+
+
+
+
+
 ## [1.15.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.1...@wigoswap/wigo-uikit@1.15.2) (2022-01-20)
 
 
