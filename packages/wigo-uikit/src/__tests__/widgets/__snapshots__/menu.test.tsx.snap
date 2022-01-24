@@ -1787,7 +1787,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             class="c25"
-            href="https://wigoswap.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+            href="https://wigoswap.io/swap?outputCurrency=0xE992bEAb6659BFF447893641A378FbbF031C5bD6"
             target="_blank"
           >
             <svg
@@ -3088,7 +3088,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c25"
-                    href="https://wigoswap.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                    href="https://wigoswap.io/swap?outputCurrency=0xE992bEAb6659BFF447893641A378FbbF031C5bD6"
                     target="_blank"
                   >
                     <svg
@@ -3243,7 +3243,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c87"
-                  href="https://wigoswap.io/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                  href="https://wigoswap.io/swap?outputCurrency=0xE992bEAb6659BFF447893641A378FbbF031C5bD6"
                   scale="sm"
                   target="_blank"
                 >
