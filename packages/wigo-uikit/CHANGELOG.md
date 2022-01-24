@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.3...@wigoswap/wigo-uikit@1.15.4) (2022-01-24)
+
+
+### Bug Fixes
+
+* Fix Wigo token address ([7cd81a9](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/7cd81a91efa5ce4305de0cdf29b32e15568f24a1))
+
+
+
+
+
 ## [1.15.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.2...@wigoswap/wigo-uikit@1.15.3) (2022-01-20)
 
 
