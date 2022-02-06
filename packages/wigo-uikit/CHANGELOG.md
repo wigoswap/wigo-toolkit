@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.17.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.17.0...@wigoswap/wigo-uikit@1.17.1) (2022-02-06)
+
+
+### Bug Fixes
+
+* Fix Liquidity Icon Size ([b008d61](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/b008d61507777c775f31e8bd6487c488463572a5))
+
+
+
+
+
 # [1.17.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.16.1...@wigoswap/wigo-uikit@1.17.0) (2022-02-06)
 
 
