@@ -70,7 +70,7 @@ const Menu: React.FC<NavProps> = ({
   buyWigoLabel,
   children,
 }) => {
-  const { isMobile } = useMatchBreakpoints();
+  const { isDesktop, isMobile } = useMatchBreakpoints();
   const [showMenu, setShowMenu] = useState(true);
   const refPrevOffset = useRef(window.pageYOffset);
 
@@ -116,17 +116,17 @@ const Menu: React.FC<NavProps> = ({
           )}
         </Flex>
         <Flex alignItems="center">
-          {!isMobile && (
+          {isDesktop && (
             <>
               <Box mr="24px">
                 <FtmPrice ftmPriceUsd={ftmPriceUsd} />
               </Box>
-              <Box mr="24px">
+              <Box>
                 <WigoPrice wigoPriceUsd={wigoPriceUsd} />
               </Box>
             </>
           )}
-          <Box mr="24px">
+          <Box mr="24px" ml="24px">
             <CertikAudit certikURL={certikURL} />
           </Box>
 
