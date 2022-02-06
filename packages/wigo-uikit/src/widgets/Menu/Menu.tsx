@@ -13,6 +13,7 @@ import FtmPrice from "../../components/FtmPrice/FtmPrice";
 import Logo from "./components/Logo";
 import { MENU_HEIGHT, MOBILE_MENU_HEIGHT } from "./config";
 import { NavProps } from "./types";
+import { CertikAudit } from "../../components/CertikAudit";
 // import LangSelector from "../../components/LangSelector/LangSelector";
 
 const Wrapper = styled.div`
@@ -125,6 +126,10 @@ const Menu: React.FC<NavProps> = ({
               </Box>
             </>
           )}
+          <Box mr="24px">
+            <CertikAudit certikURL={certikURL} />
+          </Box>
+
           {/* <Box mt="4px">
             <LangSelector
               currentLang={currentLang}
