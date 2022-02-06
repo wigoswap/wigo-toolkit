@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.16.1...@wigoswap/wigo-uikit@1.17.0) (2022-02-06)
+
+
+### Features
+
+* Add Liquidity Icon ([73bc5b9](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/73bc5b9de7032908649ac36d47f2a03995def48f))
+
+
+
+
+
 ## [1.16.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.16.0...@wigoswap/wigo-uikit@1.16.1) (2022-02-06)
 
 
