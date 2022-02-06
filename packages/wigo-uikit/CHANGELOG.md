@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.16.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.16.0...@wigoswap/wigo-uikit@1.16.1) (2022-02-06)
+
+
+### Bug Fixes
+
+* Fix CertikAudit margin ([5c213d3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/5c213d3ca4d0a40cfea181fc3847e06f5d2923c0))
+
+
+
+
+
 # [1.16.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.5...@wigoswap/wigo-uikit@1.16.0) (2022-02-06)
 
 
