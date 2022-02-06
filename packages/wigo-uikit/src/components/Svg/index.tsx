@@ -71,6 +71,8 @@ export { default as MoreHorizontalIcon } from "./Icons/MoreHorizontal";
 export { default as MoreVerticalIcon } from "./Icons/MoreVertical";
 export { default as NftIcon } from "./Icons/Nft";
 export { default as NftFilledIcon } from "./Icons/NftFilled";
+export { default as LiquidityIcon } from "./Icons/Liquidity";
+export { default as LiquidityFilledIcon } from "./Icons/LiquidityFilled";
 export { default as NoProfileAvatarIcon } from "./Icons/NoProfileAvatar";
 export { default as OpenNewIcon } from "./Icons/OpenNew";
 export { default as WigosIcon } from "./Icons/Wigos";
