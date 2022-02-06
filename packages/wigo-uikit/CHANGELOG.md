@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.5...@wigoswap/wigo-uikit@1.16.0) (2022-02-06)
+
+
+### Features
+
+* Add CertikAudit in Top Menu ([45b3f23](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/45b3f23be260e653a3abce38561a8d00414b6bf4))
+
+
+
+
+
 ## [1.15.5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.15.4...@wigoswap/wigo-uikit@1.15.5) (2022-01-24)
 
 
