@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.18.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.17.1...@wigoswap/wigo-uikit@1.18.0) (2022-02-09)
+
+
+### Features
+
+* Change wigo price link ([170788a](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/170788ae5414ea22c63e58b2540f47a139f0a279))
+
+
+
+
+
 ## [1.17.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.17.0...@wigoswap/wigo-uikit@1.17.1) (2022-02-06)
 
 
