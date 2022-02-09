@@ -25,13 +25,12 @@ const PriceLink = styled.a`
 
 const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "wigoWhite" }) => {
   return wigoPriceUsd ? (
-    // <PriceLink
-    //   href="https://wigoswap.io/swap?outputCurrency=0xE992bEAb6659BFF447893641A378FbbF031C5bD6"
-    //   target="_blank"
-    // >
-    <PriceLink href="https://docs.wigoswap.io/tokenomics/wigo-tokenomics" target="_blank">
+    <PriceLink
+      href="https://wigoswap.io/swap?outputCurrency=0xE992bEAb6659BFF447893641A378FbbF031C5bD6"
+      target="_blank"
+    >
       <WigoRoundIcon width="24px" mr="8px" />
-      <Text color={color}>{`$${wigoPriceUsd.toFixed(2)}`}</Text>
+      <Text color={color}>{`$${wigoPriceUsd.toFixed(5)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={22} />
