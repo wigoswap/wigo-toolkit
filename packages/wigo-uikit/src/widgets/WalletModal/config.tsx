@@ -4,6 +4,7 @@ import TrustWallet from "../../components/Svg/Icons/TrustWallet";
 import MathWallet from "../../components/Svg/Icons/MathWallet";
 import TokenPocket from "../../components/Svg/Icons/TokenPocket";
 import Coinbase from "../../components/Svg/Icons/Coinbase";
+import SafePal from "../../components/Svg/Icons/SafePal";
 import Coin98 from "../../components/Svg/Icons/Coin98";
 
 import { Config, ConnectorNames } from "./types";
@@ -28,8 +29,8 @@ const connectors: Config[] = [
     priority: 3,
   },
   {
-    title: "Coin98",
-    icon: Coin98,
+    title: "SafePal",
+    icon: SafePal,
     connectorId: ConnectorNames.Injected,
     priority: 4,
   },
@@ -37,19 +38,25 @@ const connectors: Config[] = [
     title: "MathWallet",
     icon: MathWallet,
     connectorId: ConnectorNames.Injected,
-    priority: 999,
+    priority: 5,
   },
   {
     title: "TokenPocket",
     icon: TokenPocket,
     connectorId: ConnectorNames.Injected,
-    priority: 999,
+    priority: 6,
+  },
+  {
+    title: "Coin98",
+    icon: Coin98,
+    connectorId: ConnectorNames.Injected,
+    priority: 7,
   },
   {
     title: "Coinbase Wallet",
     icon: Coinbase,
     connectorId: ConnectorNames.Injected,
-    priority: 999,
+    priority: 8,
   },
 ];
 

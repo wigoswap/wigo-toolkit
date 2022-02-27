@@ -34,6 +34,7 @@ export { default as ChevronUpIcon } from "./Icons/ChevronUp";
 export { default as CloseIcon } from "./Icons/Close";
 export { default as CogIcon } from "./Icons/Cog";
 export { default as Coin98Icon } from "./Icons/Coin98";
+export { default as SafePalIcon } from "./Icons/SafePal";
 export { default as CommunityIcon } from "./Icons/Community";
 export { default as CommunityFilledIcon } from "./Icons/CommunityFilled";
 export { default as CopyIcon } from "./Icons/Copy";
