@@ -152,6 +152,12 @@ export const socials = [
     href: "https://github.com/wigoswap/",
     items: [],
   },
+  {
+    label: "Discord",
+    icon: "Discord",
+    href: "https://discord.com/invite/S6hNJ7WW6r",
+    items: [],
+  },
 ];
 
 export const langs: Language[] = [...Array(20)].map((_, i) => ({

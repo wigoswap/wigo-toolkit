@@ -117,6 +117,7 @@ export { default as TradeFilledIcon } from "./Icons/TradeFilled";
 export { default as TrophyGoldIcon } from "./Icons/TrophyGold";
 export { default as TrustWalletIcon } from "./Icons/TrustWallet";
 export { default as TwitterIcon } from "./Icons/Twitter";
+export { default as DiscordIcon } from "./Icons/Discord";
 export { default as TuneIcon } from "./Icons/Tune";
 export { default as VisibilityOff } from "./Icons/VisibilityOff";
 export { default as VisibilityOn } from "./Icons/VisibilityOn";
