@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.19.0...@wigoswap/wigo-uikit@1.20.0) (2022-02-27)
+
+
+### Features
+
+* Add SafePal to WalletModal ([8fea7d5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/8fea7d5c3aecea65ebe686a32f233125bfd43d0e))
+
+
+
+
+
 # [1.19.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.18.0...@wigoswap/wigo-uikit@1.19.0) (2022-02-13)
 
 
