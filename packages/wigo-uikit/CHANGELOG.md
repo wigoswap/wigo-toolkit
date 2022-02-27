@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.21.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.21.0...@wigoswap/wigo-uikit@1.21.1) (2022-02-27)
+
+
+### Bug Fixes
+
+* Fix Discord icon size ([5daa63e](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/5daa63e6f6b214db3454103d124170db818556c2))
+* Fix Discord icon size ([fbe4971](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/fbe497149f7573b8695bf1454e4e11922289983b))
+
+
+
+
+
 # [1.21.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.20.0...@wigoswap/wigo-uikit@1.21.0) (2022-02-27)
 
 
