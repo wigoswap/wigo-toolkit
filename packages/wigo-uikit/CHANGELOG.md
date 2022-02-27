@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.21.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.20.0...@wigoswap/wigo-uikit@1.21.0) (2022-02-27)
+
+
+### Features
+
+* Add Discord link to footer ([4d597c2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/4d597c276bfddca0dbabdf77c1e138b78bec543e))
+
+
+
+
+
 # [1.20.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.19.0...@wigoswap/wigo-uikit@1.20.0) (2022-02-27)
 
 
