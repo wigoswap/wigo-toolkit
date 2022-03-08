@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.22.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.21.1...@wigoswap/wigo-uikit@1.22.0) (2022-03-08)
+
+
+### Features
+
+* Add Huobi Wallet to WalletModal ([664b779](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/664b7790d599f08ffab479e1957a34938c4c6cac))
+
+
+
+
+
 ## [1.21.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.21.0...@wigoswap/wigo-uikit@1.21.1) (2022-02-27)
 
 
