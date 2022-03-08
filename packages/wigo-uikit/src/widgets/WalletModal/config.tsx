@@ -5,6 +5,7 @@ import MathWallet from "../../components/Svg/Icons/MathWallet";
 import TokenPocket from "../../components/Svg/Icons/TokenPocket";
 import Coinbase from "../../components/Svg/Icons/Coinbase";
 import SafePal from "../../components/Svg/Icons/SafePal";
+import Huobi from "../../components/Svg/Icons/Huobi";
 import Coin98 from "../../components/Svg/Icons/Coin98";
 
 import { Config, ConnectorNames } from "./types";
@@ -35,28 +36,34 @@ const connectors: Config[] = [
     priority: 4,
   },
   {
+    title: "Huobi Wallet",
+    icon: Huobi,
+    connectorId: ConnectorNames.Injected,
+    priority: 5,
+  },
+  {
     title: "MathWallet",
     icon: MathWallet,
     connectorId: ConnectorNames.Injected,
-    priority: 5,
+    priority: 6,
   },
   {
     title: "TokenPocket",
     icon: TokenPocket,
     connectorId: ConnectorNames.Injected,
-    priority: 6,
+    priority: 7,
   },
   {
     title: "Coin98",
     icon: Coin98,
     connectorId: ConnectorNames.Injected,
-    priority: 7,
+    priority: 8,
   },
   {
     title: "Coinbase Wallet",
     icon: Coinbase,
     connectorId: ConnectorNames.Injected,
-    priority: 8,
+    priority: 9,
   },
 ];
 
