@@ -14,8 +14,8 @@ export const Bar = styled.div<BarProps>`
   top: 0;
   left: 0;
   background-color: ${({ theme, $useDark, primary }) => {
-    if ($useDark) return primary ? theme.colors.secondary : `${theme.colors.secondary}80`;
-    return primary ? lightColors.secondary : `${lightColors.secondary}80`;
+    if ($useDark) return theme.colors.wigoBlue;
+    return theme.colors.wigoBlue;
   }};
   height: 100%;
   transition: width 200ms ease;
@@ -33,8 +33,7 @@ interface StyledProgressProps {
 
 const StyledProgress = styled.div<StyledProgressProps>`
   position: relative;
-  background-color: ${({ theme, $useDark }) => ($useDark ? theme.colors.input : lightColors.input)};
-  box-shadow: ${({ theme }) => theme.shadows.inset};
+  background-color: ${({ theme }) => theme.colors.backgroundAlt2};
   overflow: hidden;
 
   ${Bar} {

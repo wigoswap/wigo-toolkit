@@ -16,6 +16,9 @@ export const styleScales = {
   [scales.SM]: {
     height: "8px",
   },
+  [scales.XS]: {
+    height: "2px",
+  },
 };
 
 export default styleVariants;
