@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.23.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.22.1...@wigoswap/wigo-uikit@1.23.0) (2022-07-15)
+
+
+### Features
+
+* Add xs scale to progress component ([b154f51](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/b154f51f1897d1a873fe82a8aef58ee63a93e7fd))
+
+
+
+
+
 ## [1.22.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.22.0...@wigoswap/wigo-uikit@1.22.1) (2022-05-10)
 
 
