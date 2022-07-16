@@ -50,7 +50,6 @@ const Input = styled.input<InputProps>`
 
   &:disabled {
     background-color: transparent;
-    border: 2px solid ${({ theme }) => theme.colors.backgroundDisabled};
     box-shadow: none;
     color: ${({ theme }) => theme.colors.textDisabled};
     cursor: not-allowed;
