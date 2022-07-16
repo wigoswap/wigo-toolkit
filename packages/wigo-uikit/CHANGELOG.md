@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.24.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.23.1...@wigoswap/wigo-uikit@1.24.0) (2022-07-16)
+
+
+### Features
+
+* Add Celebrate icon ([0a2048f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/0a2048f1b040e5201695f131874d02d896dc35b9))
+
+
+
+
+
 ## [1.23.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.23.0...@wigoswap/wigo-uikit@1.23.1) (2022-07-16)
 
 
