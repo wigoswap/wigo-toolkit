@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.23.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.23.0...@wigoswap/wigo-uikit@1.23.1) (2022-07-16)
+
+
+### Bug Fixes
+
+* Fix disabled balanceinput border color ([5c0082a](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/5c0082a3cd65225fa9af652591d194f8681fd665))
+
+
+
+
+
 # [1.23.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.22.1...@wigoswap/wigo-uikit@1.23.0) (2022-07-15)
 
 
