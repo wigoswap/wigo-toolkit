@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.25.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.25.0...@wigoswap/wigo-uikit@1.25.1) (2022-07-17)
+
+
+### Bug Fixes
+
+* Fix play icon ([0be05a0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/0be05a00d384d0c7a7340cd0a9e26d11f7d1b9bb))
+
+
+
+
+
 # [1.25.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.24.0...@wigoswap/wigo-uikit@1.25.0) (2022-07-17)
 
 
