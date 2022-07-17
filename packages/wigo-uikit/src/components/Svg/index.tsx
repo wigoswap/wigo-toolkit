@@ -141,6 +141,8 @@ export { default as HomeIcon } from "./Icons/Home";
 export { default as IfoIcon } from "./Icons/Ifo";
 export { default as MoonIcon } from "./Icons/Moon";
 export { default as MoreIcon } from "./Icons/More";
+export { default as PlayIcon } from "./Icons/Play";
+export { default as PlayFilledIcon } from "./Icons/PlayFilled";
 export { default as PoolIcon } from "./Icons/Pool";
 export { default as SunIcon } from "./Icons/Sun";
 export { default as TeamBattleIcon } from "./Icons/TeamBattle";
