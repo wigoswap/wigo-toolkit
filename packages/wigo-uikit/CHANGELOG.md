@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.25.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.25.2...@wigoswap/wigo-uikit@1.25.3) (2022-07-21)
+
+
+### Bug Fixes
+
+* NotificationDot position ([d292c9f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/d292c9fee364deae3a9ecae7420937c7915e6a2a))
+
+
+
+
+
 ## [1.25.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.25.1...@wigoswap/wigo-uikit@1.25.2) (2022-07-21)
 
 
