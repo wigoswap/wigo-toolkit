@@ -10,12 +10,11 @@ const NotificationDotRoot = styled.span`
 const Dot = styled.span<DotProps>`
   display: ${({ show }) => (show ? "inline-flex" : "none")};
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 10px;
-  height: 10px;
+  top: 7px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
   pointer-events: none;
-  border: 2px solid ${({ theme }) => theme.colors.invertedContrast};
   border-radius: 50%;
   background-color: ${({ theme, color }) => theme.colors[color]};
 `;

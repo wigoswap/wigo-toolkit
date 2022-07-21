@@ -96,4 +96,6 @@ export const LinkStatus = styled(Text)<{ color: keyof Colors }>`
   box-shadow: none;
   color: ${({ theme, color }) => theme.colors[color]};
   margin-left: 8px;
+  font-size: 12px;
+  font-weight: bold;
 `;
