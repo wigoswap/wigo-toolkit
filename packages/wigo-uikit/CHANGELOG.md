@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.25.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.25.1...@wigoswap/wigo-uikit@1.25.2) (2022-07-21)
+
+
+### Bug Fixes
+
+* Fix LinkStatus ([dc15a24](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/dc15a24e6837a6bde2fbdeb86368350c401b02e2))
+
+
+
+
+
 ## [1.25.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.25.0...@wigoswap/wigo-uikit@1.25.1) (2022-07-17)
 
 
