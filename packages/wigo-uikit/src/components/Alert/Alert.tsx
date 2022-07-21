@@ -26,7 +26,7 @@ const getThemeColor = ({ theme, variant = variants.INFO }: ThemedIconLabel) => {
       return theme.colors.success;
     case variants.INFO:
     default:
-      return theme.colors.secondary;
+      return theme.colors.wigoBlue;
   }
 };
 
