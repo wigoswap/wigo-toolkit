@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.26.5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.26.4...@wigoswap/wigo-uikit@1.26.5) (2022-07-25)
+
+
+### Bug Fixes
+
+* Fix CardMedal ([8bb1f1d](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/8bb1f1d248f63de09fe94ebe4942585f2938db89))
+
+
+
+
+
 ## [1.26.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.26.3...@wigoswap/wigo-uikit@1.26.4) (2022-07-25)
 
 
