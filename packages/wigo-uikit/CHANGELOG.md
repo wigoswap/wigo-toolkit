@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.25.5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.25.4...@wigoswap/wigo-uikit@1.25.5) (2022-07-25)
+
+
+### Bug Fixes
+
+* Fix Wiggy placeholder svg ([063fb43](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/063fb43c061a01756764a8b30f7a4cf3f4619fa5))
+
+
+
+
+
 ## [1.25.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.25.3...@wigoswap/wigo-uikit@1.25.4) (2022-07-21)
 
 
