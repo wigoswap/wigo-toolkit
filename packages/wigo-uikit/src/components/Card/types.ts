@@ -8,6 +8,12 @@ export interface CardRibbonProps extends SpaceProps, HTMLAttributes<HTMLDivEleme
   ribbonPosition?: "right" | "left";
 }
 
+export interface CardMedalProps extends SpaceProps, HTMLAttributes<HTMLDivElement> {
+  variantColor?: keyof Colors;
+  text: string;
+  medalPosition?: "right" | "left";
+}
+
 export type CardTheme = {
   background: string;
   boxShadow: string;
