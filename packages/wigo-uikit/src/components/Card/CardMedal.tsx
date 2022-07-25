@@ -35,8 +35,8 @@ const StyledCardMedal = styled.div<Partial<StyledCardMedalProps>>`
 
 const CardMedal: React.FC<CardMedalProps> = ({ variantColor, text, medalPosition, ...props }) => {
   return (
-    <StyledCardMedal variantColor={variantColor} medalPosition={medalPosition} {...props}>
-      <CardMedalIcon />
+    <StyledCardMedal medalPosition={medalPosition} {...props}>
+      <CardMedalIcon color={variantColor} />
       <div title={text}>{text}</div>
     </StyledCardMedal>
   );
