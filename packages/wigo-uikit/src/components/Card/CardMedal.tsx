@@ -14,29 +14,29 @@ const StyledCardMedal = styled.div<Partial<StyledCardMedalProps>>`
   padding: 0;
   padding: 8px 0;
   position: absolute;
-  right: ${({ medalPosition }) => (medalPosition === "right" ? 0 : "auto")};
+  right: ${({ medalPosition }) => (medalPosition === "right" ? '20px' : "auto")};
+  left: ${({ medalPosition }) => (medalPosition === "left" ? '20px' : "auto")};
   top: 0;
   text-align: center;
-  transform: translateX(30%) translateY(0%) rotate(45deg);
-  transform: ${({ medalPosition }) =>
-    medalPosition === "right"
-      ? "translateX(30%) translateY(0%) rotate(45deg)"
-      : "translateX(0%) translateY(200%) rotate(-45deg)"};
-  transform-origin: top left;
-  width: 96px;
+  width: 100px;
 
   & > div {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 96px;
+    width: 100px;
+    bottom: 25px;
+    position: absolute;
+    color: ${({ theme }) => theme.card.background};;
+    font-weight: bold;
+    font-size: 20px;
   }
 `;
 
 const CardMedal: React.FC<CardMedalProps> = ({ variantColor, text, medalPosition, ...props }) => {
   return (
     <StyledCardMedal medalPosition={medalPosition} {...props}>
-      <CardMedalIcon color={variantColor} />
+      <CardMedalIcon color={variantColor} width="100%" />
       <div title={text}>{text}</div>
     </StyledCardMedal>
   );
