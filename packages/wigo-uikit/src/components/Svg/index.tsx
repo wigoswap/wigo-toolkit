@@ -10,6 +10,7 @@ export { default as ArrowForwardIcon } from "./Icons/ArrowForward";
 export { default as ArrowLastIcon } from "./Icons/ArrowLast";
 export { default as ArrowUpIcon } from "./Icons/ArrowUp";
 export { default as AutoRenewIcon } from "./Icons/AutoRenew";
+export { default as CardMedalIcon } from "./Icons/CardMedal";
 export { default as FantomIcon } from "./Icons/Fantom";
 export { default as FantomOperaIcon } from "./Icons/FantomOpera";
 export { default as BlockIcon } from "./Icons/Block";
