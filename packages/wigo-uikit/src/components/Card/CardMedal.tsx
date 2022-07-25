@@ -12,7 +12,6 @@ const StyledCardMedal = styled.div<Partial<StyledCardMedalProps>>`
   color: white;
   margin: 0;
   padding: 0;
-  padding: 8px 0;
   position: absolute;
   right: ${({ medalPosition }) => (medalPosition === "right" ? "20px" : "auto")};
   left: ${({ medalPosition }) => (medalPosition === "left" ? "20px" : "auto")};
