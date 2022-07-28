@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.27.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.26.5...@wigoswap/wigo-uikit@1.27.0) (2022-07-28)
+
+
+### Features
+
+* Add sort icon ([dc5c647](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/dc5c6473a1a8f60111b8bfcdbb13f2c061f16746))
+
+
+
+
+
 ## [1.26.5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.26.4...@wigoswap/wigo-uikit@1.26.5) (2022-07-25)
 
 
