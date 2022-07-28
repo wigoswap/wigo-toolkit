@@ -102,6 +102,7 @@ export { default as SearchIcon } from "./Icons/Search";
 export { default as SellIcon } from "./Icons/Sell";
 export { default as ShareIcon } from "./Icons/Share";
 export { default as SmallDotIcon } from "./Icons/SmallDot";
+export { default as SortIcon } from "./Icons/Sort";
 export { default as StarFillIcon } from "./Icons/StarFill";
 export { default as StarLineIcon } from "./Icons/StarLine";
 export { default as SwapIcon } from "./Icons/Swap";
