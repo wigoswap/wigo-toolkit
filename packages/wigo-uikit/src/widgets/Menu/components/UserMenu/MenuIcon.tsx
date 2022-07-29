@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Variant, variants } from "./types";
 import { Image } from "../../../../components/Image";
-import { RefreshIcon, WalletFilledIcon, WarningIcon } from "../../../../components/Svg";
+import { LogoIcon, WalletFilledIcon, WarningIcon } from "../../../../components/Svg";
 import { Colors } from "../../../../theme/types";
 
 const MenuIconWrapper = styled.div<{ borderColor: keyof Colors }>`
@@ -41,7 +41,7 @@ export const NoProfileMenuIcon: React.FC = () => (
 
 export const PendingMenuIcon: React.FC = () => (
   <MenuIconWrapper borderColor="secondary">
-    <RefreshIcon color="secondary" width="24px" spin />
+    <LogoIcon color="wigoWhite" width="24px" spin />
   </MenuIconWrapper>
 );
 
