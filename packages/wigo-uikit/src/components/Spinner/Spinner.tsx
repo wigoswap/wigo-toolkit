@@ -24,7 +24,7 @@ const RotatingWigoIcon = styled(Logo)`
 const Spinner: React.FC<SpinnerProps> = ({ size = 128, color = "#374ef5" }) => {
   return (
     <Container>
-      <RotatingWigoIcon fill={color} width={`${size * 0.5}px`} />
+      <RotatingWigoIcon color={color} width={`${size * 0.5}px`} />
     </Container>
   );
 };
