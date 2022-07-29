@@ -42,7 +42,7 @@ export const NoProfileMenuIcon: React.FC = () => (
 
 export const PendingMenuIcon: React.FC = () => (
   <MenuIconWrapper borderColor="wigoWhite">
-    <Spinner size={40} />
+    <Spinner size={40} color="#FFFFFF" />
   </MenuIconWrapper>
 );
 
