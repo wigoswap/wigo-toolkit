@@ -47,14 +47,14 @@ export const PendingMenuIcon: React.FC = () => (
 );
 
 export const WarningMenuIcon: React.FC = () => (
-  <MenuIconWrapper borderColor="warning">
-    <WarningIcon color="warning" width="24px" />
+  <MenuIconWrapper borderColor="wigoWhite">
+    <WarningIcon color="wigoWhite" width="24px" />
   </MenuIconWrapper>
 );
 
 export const DangerMenuIcon: React.FC = () => (
-  <MenuIconWrapper borderColor="failure">
-    <WarningIcon color="failure" width="24px" />
+  <MenuIconWrapper borderColor="wigoWhite">
+    <WarningIcon color="wigoWhite" width="24px" />
   </MenuIconWrapper>
 );
 
