@@ -4,6 +4,7 @@ import { Variant, variants } from "./types";
 import { Image } from "../../../../components/Image";
 import { LogoIcon, WalletFilledIcon, WarningIcon } from "../../../../components/Svg";
 import { Colors } from "../../../../theme/types";
+import { Spinner } from "../../../../components/Spinner";
 
 const MenuIconWrapper = styled.div<{ borderColor: keyof Colors }>`
   align-items: center;
@@ -40,8 +41,8 @@ export const NoProfileMenuIcon: React.FC = () => (
 );
 
 export const PendingMenuIcon: React.FC = () => (
-  <MenuIconWrapper borderColor="secondary">
-    <LogoIcon color="wigoWhite" width="24px" spin />
+  <MenuIconWrapper borderColor="wigoWhite">
+    <Spinner size={24} />
   </MenuIconWrapper>
 );
 
