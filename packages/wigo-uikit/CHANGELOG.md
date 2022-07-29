@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.29.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.28.3...@wigoswap/wigo-uikit@1.29.0) (2022-07-29)
+
+
+### Features
+
+* Add walletLink ([a1bc9bc](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/a1bc9bc5c17ba7ee2b9e71174e7c196b93cf3170))
+
+
+
+
+
 ## [1.28.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.28.2...@wigoswap/wigo-uikit@1.28.3) (2022-07-29)
 
 
