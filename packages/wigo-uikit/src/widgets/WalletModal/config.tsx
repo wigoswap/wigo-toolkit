@@ -62,7 +62,7 @@ const connectors: Config[] = [
   {
     title: "Coinbase Wallet",
     icon: Coinbase,
-    connectorId: ConnectorNames.Injected,
+    connectorId: ConnectorNames.WalletLink,
     priority: 9,
   },
 ];
