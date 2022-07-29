@@ -15,7 +15,7 @@ export interface UserMenuProps extends FlexProps {
   text?: string;
   avatarSrc?: string;
   variant?: Variant;
-  onClick?: MouseEventHandler<HTMLDivElement>;
+  onClick?: void;
 }
 
 export interface UserMenuItemProps {
