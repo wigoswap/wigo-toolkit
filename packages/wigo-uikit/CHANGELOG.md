@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.28.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.27.0...@wigoswap/wigo-uikit@1.28.0) (2022-07-29)
+
+
+### Features
+
+* Change pendingMenu icon ([f6f209c](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/f6f209c0753d41a7f0851881f5be8421318e4b72))
+
+
+
+
+
 # [1.27.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.26.5...@wigoswap/wigo-uikit@1.27.0) (2022-07-28)
 
 
