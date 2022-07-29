@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.31.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.30.0...@wigoswap/wigo-uikit@1.31.0) (2022-07-29)
+
+
+### Features
+
+* Add onClick to UserMenu ([9619c6f](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/9619c6f05e178b2d85222035f29f76e4dcb8e63d))
+
+
+
+
+
 # [1.30.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.29.0...@wigoswap/wigo-uikit@1.30.0) (2022-07-29)
 
 
