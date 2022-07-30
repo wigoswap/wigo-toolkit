@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.32.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.31.1...@wigoswap/wigo-uikit@1.32.0) (2022-07-30)
+
+
+### Features
+
+* Export dropDownMenuItems type ([44245fa](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/44245fa6a75ed4ee1b00319163e68d784d518ee4))
+
+
+
+
+
 ## [1.31.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.31.0...@wigoswap/wigo-uikit@1.31.1) (2022-07-29)
 
 
