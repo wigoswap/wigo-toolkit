@@ -6,8 +6,8 @@ import OpenNewIcon from "../Svg/Icons/OpenNew";
 const LinkExternal: React.FC<LinkProps> = ({ children, ...props }) => {
   return (
     <Link external {...props}>
+      <OpenNewIcon width="18px" color={props.color ? props.color : "primary"} mr="4px" />
       {children}
-      <OpenNewIcon color={props.color ? props.color : "primary"} ml="4px" />
     </Link>
   );
 };
