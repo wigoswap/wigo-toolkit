@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.32.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.32.1...@wigoswap/wigo-uikit@1.32.2) (2022-08-01)
+
+
+### Bug Fixes
+
+* Fix calculate icon ([de6dd38](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/de6dd38f81af5d3fc874d8549693fa370dd7ce7e))
+
+
+
+
+
 ## [1.32.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.32.0...@wigoswap/wigo-uikit@1.32.1) (2022-08-01)
 
 
