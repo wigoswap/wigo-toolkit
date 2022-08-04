@@ -79,7 +79,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
   const { styles, attributes } = usePopper(targetRef, tooltipRef, {
     strategy: "fixed",
     placement: "bottom-end",
-    modifiers: [{ name: "offset", options: { offset: [0, 0] } }],
+    modifiers: [{ name: "offset", options: { offset: [0, 12] } }],
   });
 
   useEffect(() => {
