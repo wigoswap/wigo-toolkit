@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.33.5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.4...@wigoswap/wigo-uikit@1.33.5) (2022-08-04)
+
+
+### Bug Fixes
+
+* Fix userMenu spinner ([706dc1a](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/706dc1a4da676f921fd29dcdf8152254ca146f74))
+
+
+
+
+
 ## [1.33.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.3...@wigoswap/wigo-uikit@1.33.4) (2022-08-04)
 
 
