@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.33.4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.3...@wigoswap/wigo-uikit@1.33.4) (2022-08-04)
+
+
+### Bug Fixes
+
+* Fix userMenu offset ([4bd9af9](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/4bd9af92757bb32eeb1b67a04565b8233a361602))
+
+
+
+
+
 ## [1.33.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.2...@wigoswap/wigo-uikit@1.33.3) (2022-08-04)
 
 
