@@ -8,6 +8,7 @@ import { Colors } from "../../theme";
 export interface Props {
   color?: keyof Colors;
   wigoPriceUsd?: number;
+  showSkeleton?: boolean;
 }
 
 const PriceLink = styled.a`
@@ -23,7 +24,7 @@ const PriceLink = styled.a`
   }
 `;
 
-const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "wigoWhite" }) => {
+const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "wigoWhite", showSkeleton = true }) => {
   return wigoPriceUsd ? (
     <PriceLink
       href="https://wigoswap.io/swap?outputCurrency=0xE992bEAb6659BFF447893641A378FbbF031C5bD6"
@@ -32,9 +33,9 @@ const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "wigoWhite" }) => {
       <WigoRoundIcon width="24px" mr="8px" />
       <Text color={color}>{`$${wigoPriceUsd.toFixed(4)}`}</Text>
     </PriceLink>
-  ) : (
+  ) : showSkeleton ? (
     <Skeleton width={80} height={22} />
-  );
+  ) : null;
 };
 
 export default React.memo(WigoPrice);
