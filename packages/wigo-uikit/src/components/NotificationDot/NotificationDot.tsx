@@ -10,8 +10,8 @@ const NotificationDotRoot = styled.span`
 const Dot = styled.span<DotProps>`
   display: ${({ show }) => (show ? "inline-flex" : "none")};
   position: absolute;
-  top: 8px;
-  right: 4px;
+  top: 10px;
+  right: 10px;
   width: 8px;
   height: 8px;
   pointer-events: none;
