@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.33.8](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.7...@wigoswap/wigo-uikit@1.33.8) (2022-08-27)
+
+
+### Bug Fixes
+
+* Fix bottom nav height ([23e7e34](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/23e7e349da48a8321d1a793057d82d5d1ce69480))
+
+
+
+
+
 ## [1.33.7](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.6...@wigoswap/wigo-uikit@1.33.7) (2022-08-27)
 
 
