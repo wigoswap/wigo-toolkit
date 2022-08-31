@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.34.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.9...@wigoswap/wigo-uikit@1.34.0) (2022-08-31)
+
+
+### Features
+
+* Change Heading xxl scale ([fa2d054](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/fa2d054b1d97b24af1a6790da885656db183ad62))
+
+
+
+
+
 ## [1.33.9](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.8...@wigoswap/wigo-uikit@1.33.9) (2022-08-27)
 
 
