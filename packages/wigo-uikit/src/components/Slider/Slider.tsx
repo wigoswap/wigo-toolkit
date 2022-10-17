@@ -51,7 +51,9 @@ const Slider: React.FC<SliderProps> = ({
       </WiggySlider>
       {valueLabel && (
         <SliderLabelContainer>
-          <SliderLabel progress={labelProgress} color="textSubtle">{displayValueLabel}</SliderLabel>
+          <SliderLabel progress={labelProgress} color="textSubtle">
+            {displayValueLabel}
+          </SliderLabel>
         </SliderLabelContainer>
       )}
     </Box>
