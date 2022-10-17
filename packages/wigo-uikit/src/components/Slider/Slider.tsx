@@ -31,7 +31,7 @@ const Slider: React.FC<SliderProps> = ({
     progressWidth = `${progressPercentage}%`;
   }
   const labelProgress = isMax ? "calc(100% - 12px)" : `${progressPercentage}%`;
-  const displayValueLabel = isMax ? "MAX" : valueLabel;
+  const displayValueLabel = isMax ? "Max" : valueLabel;
   return (
     <Box position="relative" height="48px" {...props}>
       <WiggySlider>
@@ -51,7 +51,7 @@ const Slider: React.FC<SliderProps> = ({
       </WiggySlider>
       {valueLabel && (
         <SliderLabelContainer>
-          <SliderLabel progress={labelProgress}>{displayValueLabel}</SliderLabel>
+          <SliderLabel progress={labelProgress} color="textSubtle">{displayValueLabel}</SliderLabel>
         </SliderLabelContainer>
       )}
     </Box>
