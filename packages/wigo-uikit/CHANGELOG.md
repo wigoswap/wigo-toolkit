@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.34.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.34.0...@wigoswap/wigo-uikit@1.34.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* Fix slider label color ([e428e32](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/e428e32bf87ec44b568b8b3e8d9f42a2e328362a))
+* Fix slider label color ([91121b5](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/91121b538a4a07e549df33208177a14d987c96cc))
+
+
+
+
+
 # [1.34.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.33.9...@wigoswap/wigo-uikit@1.34.0) (2022-08-31)
 
 
