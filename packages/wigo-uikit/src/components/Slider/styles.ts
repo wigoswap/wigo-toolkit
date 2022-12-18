@@ -30,6 +30,8 @@ const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   filter: ${disabled ? "grayscale(100%)" : "none"};
   transform: translate(-1px, 2px);
   transition: 200ms transform;
+  box-shadow: none;
+  border-radius: 0;
 
   &:hover {
     transform: ${disabled ? "scale(1) translate(-2px, 0)" : "scale(1.1) translate(-3px, 0)"};
