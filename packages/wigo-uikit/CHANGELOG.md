@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.34.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.34.1...@wigoswap/wigo-uikit@1.34.2) (2022-12-18)
+
+
+### Bug Fixes
+
+* Remove box shadow in WiggySlider ([34dd5e7](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/34dd5e7ef946425f167a25bc5e11ea21e6fb9465))
+
+
+
+
+
 ## [1.34.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.34.0...@wigoswap/wigo-uikit@1.34.1) (2022-10-17)
 
 
