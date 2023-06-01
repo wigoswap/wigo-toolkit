@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.35.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.34.2...@wigoswap/wigo-uikit@1.35.0) (2023-06-01)
+
+
+### Features
+
+* Export logo component ([66a76af](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/66a76afbb25580c9754c4ec69fbcdef09398b16c))
+
+
+
+
+
 ## [1.34.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.34.1...@wigoswap/wigo-uikit@1.34.2) (2022-12-18)
 
 
