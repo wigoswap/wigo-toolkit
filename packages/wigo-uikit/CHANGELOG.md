@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.35.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.35.1...@wigoswap/wigo-uikit@1.35.2) (2023-06-02)
+
+
+### Bug Fixes
+
+* Change gitHead ([e342f10](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/e342f10af13138110e69e051c5c119bfeb40c38a))
+
+
+
+
+
 ## [1.35.1](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.35.0...@wigoswap/wigo-uikit@1.35.1) (2023-06-02)
 
 
