@@ -17,12 +17,12 @@ const connectors: Config[] = [
     connectorId: ConnectorNames.Injected,
     priority: 1,
   },
-  {
-    title: "WalletConnect",
-    icon: WalletConnect,
-    connectorId: ConnectorNames.WalletConnect,
-    priority: 2,
-  },
+  // {
+  //   title: "WalletConnect",
+  //   icon: WalletConnect,
+  //   connectorId: ConnectorNames.WalletConnect,
+  //   priority: 2,
+  // },
   {
     title: "Trust Wallet",
     icon: TrustWallet,
