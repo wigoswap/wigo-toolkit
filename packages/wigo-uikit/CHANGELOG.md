@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.39.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.38.0...@wigoswap/wigo-uikit@1.39.0) (2023-07-09)
+
+
+### Features
+
+* Upgrade to react 18 ([491e3f4](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/491e3f479663ddf27f0584f419ce039c7b780429))
+
+
+
+
+
 # [1.38.0](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.37.1...@wigoswap/wigo-uikit@1.38.0) (2023-06-29)
 
 
