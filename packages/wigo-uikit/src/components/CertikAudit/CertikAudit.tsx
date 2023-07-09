@@ -12,7 +12,7 @@ const CertikLink = styled.a`
   }
 `;
 
-const CertikAudit: React.FC<Props> = ({ certikURL }) => {
+const CertikAudit: React.FC<React.PropsWithChildren<Props>> = ({ certikURL }) => {
   return (
     <CertikLink href={certikURL} target="_blank">
       <Certik width="95px" />

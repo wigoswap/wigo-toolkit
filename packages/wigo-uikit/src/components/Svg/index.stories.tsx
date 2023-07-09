@@ -11,7 +11,7 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => {
+export const Default: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <div>
       <Svg viewBox="0 0 18 13">
@@ -36,7 +36,7 @@ const components = context.keys().reduce((accum, path) => {
   };
 }, {});
 
-export const Icons: React.FC = () => {
+export const Icons: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <Flex justifyContent="start" alignItems="center" flexWrap="wrap">
       {Object.keys(components).map((file) => {
@@ -69,7 +69,7 @@ export const Icons: React.FC = () => {
   );
 };
 
-const AnimatedIconComponentTemplate: React.FC = (args) => {
+const AnimatedIconComponentTemplate: React.FC<React.PropsWithChildren<unknown>> = (args) => {
   return (
     <Box background="white" height="48px" width="48px">
       <AnimatedIconComponent

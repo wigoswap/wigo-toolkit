@@ -7,7 +7,7 @@ export default {
   component: CertikAudit,
 };
 
-const Template: React.FC<CertikAuditProps> = ({ ...args }) => {
+const Template: React.FC<React.PropsWithChildren<CertikAuditProps>> = ({ ...args }) => {
   return (
     <Flex p="10px">
       <CertikAudit {...args} />

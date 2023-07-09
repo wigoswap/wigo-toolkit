@@ -3,9 +3,9 @@ import * as IconModule from ".";
 import { StyledAnimatedIconComponent, StyledIconContainer } from "./styles";
 import { IconComponentType, SvgProps } from "./types";
 
-const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
+const Icons = IconModule as unknown as { [key: string]: React.FC<React.PropsWithChildren<SvgProps>> };
 
-const AnimatedIconComponent: React.FC<IconComponentType> = ({
+const AnimatedIconComponent: React.FC<React.PropsWithChildren<IconComponentType>> = ({
   iconName,
   color = "wigoWhite",
   activeColor = "wigoBlue",

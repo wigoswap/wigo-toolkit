@@ -13,7 +13,7 @@ const StyledWiggyPlaceholder = styled(WiggyPlaceholder)`
   width: 100%;
 `;
 
-const ProfileAvatar: React.FC<BackgroundImageProps> = (props) => (
+const ProfileAvatar: React.FC<React.PropsWithChildren<BackgroundImageProps>> = (props) => (
   <StyledProfileAvatar loadingPlaceholder={<StyledWiggyPlaceholder />} {...props} />
 );
 

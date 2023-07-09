@@ -10,7 +10,7 @@ const lists = {
   "wigoswap-default": wigoswapDefault,
   "wigoswap-extended": wigoswapExtended,
   "wigoswap-top-100": wigoswapTop100,
-  "wigoswap-top-15": wigoswapTop15
+  "wigoswap-top-15": wigoswapTop15,
 };
 
 const checksumAddresses = (listName: string): void => {

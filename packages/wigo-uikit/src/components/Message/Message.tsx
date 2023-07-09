@@ -24,7 +24,7 @@ const MessageContainer = styled.div<MessageProps>`
   })}
 `;
 
-const Message: React.FC<MessageProps> = ({ children, variant, icon, ...props }) => {
+const Message: React.FC<React.PropsWithChildren<MessageProps>> = ({ children, variant, icon, ...props }) => {
   const Icon = Icons[variant];
   return (
     <MessageContainer variant={variant} {...props}>

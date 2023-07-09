@@ -24,7 +24,11 @@ const PriceLink = styled.a`
   }
 `;
 
-const FtmPrice: React.FC<Props> = ({ ftmPriceUsd, color = "wigoWhite", showSkeleton = true }) => {
+const FtmPrice: React.FC<React.PropsWithChildren<Props>> = ({
+  ftmPriceUsd,
+  color = "wigoWhite",
+  showSkeleton = true,
+}) => {
   return ftmPriceUsd ? (
     <PriceLink href="https://wigoswap.io/swap?inputCurrency=0x04068DA6C83AFCFA0e13ba15A6696662335D5B75" target="_blank">
       <FtmRoundIcon width="24px" mr="8px" />

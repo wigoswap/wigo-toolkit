@@ -11,7 +11,7 @@ export type Login = (connectorId: ConnectorNames) => void;
 
 export interface Config {
   title: string;
-  icon: FC<SvgProps>;
+  icon: FC<React.PropsWithChildren<SvgProps>>;
   connectorId: ConnectorNames;
   priority: number;
 }

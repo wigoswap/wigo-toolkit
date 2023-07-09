@@ -64,7 +64,7 @@ const Menu = styled.div<{ isOpen: boolean }>`
   }
 `;
 
-const UserMenu: React.FC<UserMenuProps> = ({
+const UserMenu: React.FC<React.PropsWithChildren<UserMenuProps>> = ({
   account,
   text,
   avatarSrc,

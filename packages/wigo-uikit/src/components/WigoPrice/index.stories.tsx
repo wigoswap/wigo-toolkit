@@ -7,7 +7,7 @@ export default {
   component: WigoPrice,
 };
 
-const Template: React.FC<WigoPriceProps> = ({ ...args }) => {
+const Template: React.FC<React.PropsWithChildren<WigoPriceProps>> = ({ ...args }) => {
   return (
     <Flex p="10px">
       <WigoPrice {...args} />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import StyledMenuItem, { StyledMenuItemContainer } from "./styles";
 import { MenuItemProps } from "./types";
 
-const MenuItem: React.FC<MenuItemProps> = ({
+const MenuItem: React.FC<React.PropsWithChildren<MenuItemProps>> = ({
   children,
   href,
   isActive = false,

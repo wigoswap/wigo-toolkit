@@ -9,7 +9,7 @@ export default {
   component: SubMenuItems,
 };
 
-const Template: React.FC<SubMenuItemsProps> = (args) => {
+const Template: React.FC<React.PropsWithChildren<SubMenuItemsProps>> = (args) => {
   return (
     <BrowserRouter>
       <SubMenuItems {...args} />

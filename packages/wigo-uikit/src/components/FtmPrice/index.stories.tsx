@@ -7,7 +7,7 @@ export default {
   component: FtmPrice,
 };
 
-const Template: React.FC<FtmPriceProps> = ({ ...args }) => {
+const Template: React.FC<React.PropsWithChildren<FtmPriceProps>> = ({ ...args }) => {
   return (
     <Flex p="10px">
       <FtmPrice {...args} />

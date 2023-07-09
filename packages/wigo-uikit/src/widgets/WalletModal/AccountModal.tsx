@@ -14,7 +14,7 @@ interface Props {
   t: (key: string) => string;
 }
 
-const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null, t }) => (
+const AccountModal: React.FC<React.PropsWithChildren<Props>> = ({ account, logout, onDismiss = () => null, t }) => (
   <Modal title={t("Your wallet")} onDismiss={onDismiss}>
     <Text
       fontSize="20px"

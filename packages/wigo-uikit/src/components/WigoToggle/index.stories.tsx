@@ -6,7 +6,7 @@ export default {
   component: WigoToggle,
 };
 
-export const Default: React.FC = () => {
+export const Default: React.FC<React.PropsWithChildren<unknown>> = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   const toggle = () => setIsChecked(!isChecked);

@@ -9,7 +9,7 @@ export default {
   argTypes: {},
 };
 
-export const Default: React.FC = () => {
+export const Default: React.FC<React.PropsWithChildren<unknown>> = () => {
   const [decimalValue, setDecimalValue] = useState(1.43333);
   const [numericValue, setNumericValue] = useState(5);
 
@@ -57,7 +57,7 @@ export const Default: React.FC = () => {
   );
 };
 
-export const UnitDisplay: React.FC = () => {
+export const UnitDisplay: React.FC<React.PropsWithChildren<unknown>> = () => {
   const WIGO_PRICE = 69;
   const [wigoValue, setWigoValue] = useState("1006.086956");
 
@@ -98,7 +98,7 @@ export const UnitDisplay: React.FC = () => {
   );
 };
 
-export const SiwtchUnits: React.FC = () => {
+export const SiwtchUnits: React.FC<React.PropsWithChildren<unknown>> = () => {
   const WIGO_PRICE = 69;
   const [editingUnit, setEditingUnit] = useState<"WIGO" | "USD">("WIGO");
   const conversionUnit = editingUnit === "WIGO" ? "USD" : "WIGO";
@@ -156,7 +156,7 @@ export const SiwtchUnits: React.FC = () => {
   );
 };
 
-export const Textfield: React.FC = () => {
+export const Textfield: React.FC<React.PropsWithChildren<unknown>> = () => {
   const [value, setValue] = useState("");
 
   return (

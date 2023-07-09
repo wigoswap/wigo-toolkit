@@ -4,7 +4,7 @@ import MenuItem from "../MenuItem/MenuItem";
 import StyledSubMenuItems from "./styles";
 import { SubMenuItemsProps } from "./types";
 
-const SubMenuItems: React.FC<SubMenuItemsProps> = ({ items = [], activeItem, ...props }) => {
+const SubMenuItems: React.FC<React.PropsWithChildren<SubMenuItemsProps>> = ({ items = [], activeItem, ...props }) => {
   return (
     <StyledSubMenuItems justifyContent="center" {...props}>
       {items.map(

@@ -24,7 +24,11 @@ const PriceLink = styled.a`
   }
 `;
 
-const WigoPrice: React.FC<Props> = ({ wigoPriceUsd, color = "wigoWhite", showSkeleton = true }) => {
+const WigoPrice: React.FC<React.PropsWithChildren<Props>> = ({
+  wigoPriceUsd,
+  color = "wigoWhite",
+  showSkeleton = true,
+}) => {
   return wigoPriceUsd ? (
     <PriceLink
       href="https://wigoswap.io/swap?outputCurrency=0xE992bEAb6659BFF447893641A378FbbF031C5bD6"

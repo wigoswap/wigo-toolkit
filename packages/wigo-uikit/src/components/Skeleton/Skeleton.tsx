@@ -55,7 +55,11 @@ const Waves = styled(Root)`
   }
 `;
 
-const Skeleton: React.FC<SkeletonProps> = ({ variant = VARIANT.RECT, animation = ANIMATION.PULSE, ...props }) => {
+const Skeleton: React.FC<React.PropsWithChildren<SkeletonProps>> = ({
+  variant = VARIANT.RECT,
+  animation = ANIMATION.PULSE,
+  ...props
+}) => {
   if (animation === ANIMATION.WAVES) {
     return <Waves variant={variant} {...props} />;
   }

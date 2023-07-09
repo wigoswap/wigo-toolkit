@@ -16,7 +16,7 @@ export default {
   argTypes: {},
 };
 
-export const Image: React.FC = () => {
+export const Image: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <div>
       <Img src="https://via.placeholder.com/800x400" width={800} height={400} alt="test" />
@@ -25,7 +25,7 @@ export const Image: React.FC = () => {
   );
 };
 
-export const Background: React.FC = () => {
+export const Background: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <div>
       <BackgroundImage src="https://via.placeholder.com/800x400" width={800} height={400} mr="16px" />
@@ -34,7 +34,7 @@ export const Background: React.FC = () => {
   );
 };
 
-export const LazyImages: React.FC = () => {
+export const LazyImages: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <Flex flexWrap="wrap">
       {times(40, (index) => (
@@ -51,7 +51,7 @@ export const LazyImages: React.FC = () => {
   );
 };
 
-export const LazyBackgrounds: React.FC = () => {
+export const LazyBackgrounds: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <Flex flexWrap="wrap">
       {times(40, (index) => (
@@ -74,7 +74,7 @@ const StyledBox = styled(Box)`
   text-align: center;
 `;
 
-export const TokenImages: React.FC = () => {
+export const TokenImages: React.FC<React.PropsWithChildren<unknown>> = () => {
   const tokens = Object.values(tokenList).filter((token) => !!token?.address);
   return (
     <Flex flexWrap="wrap">
@@ -94,7 +94,7 @@ export const TokenImages: React.FC = () => {
   );
 };
 
-export const TokenPairImages: React.FC = () => {
+export const TokenPairImages: React.FC<React.PropsWithChildren<unknown>> = () => {
   const tokens = Object.values(tokenList).filter((token) => !!token?.address);
   return (
     <Flex flexWrap="wrap">
@@ -128,7 +128,7 @@ export const TokenPairImages: React.FC = () => {
   );
 };
 
-export const ProfileAvatar: React.FC = () => {
+export const ProfileAvatar: React.FC<React.PropsWithChildren<unknown>> = () => {
   return (
     <div>
       <Text>Shows Placeholder until image is downloaded</Text>

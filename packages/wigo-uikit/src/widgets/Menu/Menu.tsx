@@ -51,7 +51,7 @@ const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   max-width: 100%;
 `;
 
-const Menu: React.FC<NavProps> = ({
+const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
   userMenu,
   globalMenu,
   isDark,

@@ -5,7 +5,12 @@ import MenuItem from "../MenuItem/MenuItem";
 import IconComponent from "../Svg/IconComponent";
 import { MenuItemsProps } from "./types";
 
-const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSubItem, ...props }) => {
+const MenuItems: React.FC<React.PropsWithChildren<MenuItemsProps>> = ({
+  items = [],
+  activeItem,
+  activeSubItem,
+  ...props
+}) => {
   return (
     <Flex {...props}>
       {items.map(({ label, items: menuItems = [], href, icon = "" }) => {

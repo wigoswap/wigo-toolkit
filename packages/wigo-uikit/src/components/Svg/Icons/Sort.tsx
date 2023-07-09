@@ -2,7 +2,7 @@ import React from "react";
 import Svg from "../Svg";
 import { SvgProps } from "../types";
 
-const Icon: React.FC<SvgProps> = (props) => {
+const Icon: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
   return (
     <Svg viewBox="0 0 24 24" {...props}>
       <path d="M1.3,20h5.3C7.4,20,8,19.4,8,18.7c0-0.7-0.6-1.3-1.3-1.3H1.3c-0.7,0-1.3,0.6-1.3,1.3C0,19.4,0.6,20,1.3,20z" />

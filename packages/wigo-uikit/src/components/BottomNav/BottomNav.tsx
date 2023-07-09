@@ -6,7 +6,12 @@ import DropdownMenu from "../DropdownMenu/DropdownMenu";
 import { BottomNavProps } from "./types";
 import { NotificationDot } from "../NotificationDot";
 
-const BottomNav: React.FC<BottomNavProps> = ({ items = [], activeItem = "", activeSubItem = "", ...props }) => {
+const BottomNav: React.FC<React.PropsWithChildren<BottomNavProps>> = ({
+  items = [],
+  activeItem = "",
+  activeSubItem = "",
+  ...props
+}) => {
   return (
     <StyledBottomNav justifyContent="space-around" {...props}>
       {items.map(({ label, items: menuItems, href, icon, showOnMobile = true, showItemsOnMobile = true }) => {

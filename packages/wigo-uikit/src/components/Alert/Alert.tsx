@@ -72,7 +72,7 @@ const StyledAlert = styled(Flex)<ThemedIconLabel>`
   border-radius: 20px;
 `;
 
-const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
+const Alert: React.FC<React.PropsWithChildren<AlertProps>> = ({ title, children, variant, onClick }) => {
   const Icon = getIcon(variant);
 
   return (

@@ -6,12 +6,10 @@
   "https://tokens.wigoswap.io/wigoswap-extended.json": {
     "name": "WigoSwap Extended",
     "homepage": "https://wigoswap.io"
-    
   },
   "https://tokens.wigoswap.io/wigoswap-top-100.json": {
     "name": "WigoSwap Top 100",
     "homepage": "https://wigoswap.io"
-    
   },
   "https://tokens.coingecko.com/binance-smart-chain/all.json": {
     "name": "CoinGecko",

@@ -6,7 +6,12 @@ import { BaseMenuProps } from "./types";
 
 const portalRoot = document.getElementById("portal-root");
 
-const BaseMenu: React.FC<BaseMenuProps> = ({ component, options, children, isOpen = false }) => {
+const BaseMenu: React.FC<React.PropsWithChildren<BaseMenuProps>> = ({
+  component,
+  options,
+  children,
+  isOpen = false,
+}) => {
   const [targetElement, setTargetElement] = useState<HTMLElement | null>(null);
   const [menuElement, setMenuElement] = useState<HTMLElement | null>(null);
   const placement = options?.placement ?? "bottom";

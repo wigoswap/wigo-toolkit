@@ -65,7 +65,7 @@ const Wiggy = styled.div<WiggyProps>`
   }
 `;
 
-const FallingWiggies: React.FC<FallingWiggiesProps> = ({
+const FallingWiggies: React.FC<React.PropsWithChildren<FallingWiggiesProps>> = ({
   count = 30,
   size = 32,
   iterations = Infinity,

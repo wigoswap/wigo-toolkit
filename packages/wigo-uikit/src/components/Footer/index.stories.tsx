@@ -10,7 +10,7 @@ export default {
   component: Footer,
 };
 
-const Template: React.FC<FooterProps> = ({ ...args }) => {
+const Template: React.FC<React.PropsWithChildren<FooterProps>> = ({ ...args }) => {
   return (
     <BrowserRouter>
       <Footer {...args} />

@@ -1,4 +1,5 @@
 import React from "react";
+import { marginBottom } from "styled-system";
 import { baseColors, darkColors } from "../../theme/colors";
 import { Flex, Box } from "../Box";
 import { Link } from "../Link";
@@ -17,9 +18,8 @@ import FtmPrice from "../FtmPrice/FtmPrice";
 import { LogoWhite } from "../Svg";
 import { Colors } from "../..";
 import { CertikAudit } from "../CertikAudit";
-import { marginBottom } from "styled-system";
 
-const MenuItem: React.FC<FooterProps> = ({
+const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
   items,
   isDark,
   toggleTheme,
