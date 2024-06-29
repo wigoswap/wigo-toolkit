@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.39.3](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.39.2...@wigoswap/wigo-uikit@1.39.3) (2024-06-29)
+
+
+### Bug Fixes
+
+* Fix logo size ([8539f58](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/commit/8539f582d18b3fe8c637654bafb48e7dc8a312bc))
+
+
+
+
+
 ## [1.39.2](https://github.com/wigoswap/wigo-toolkit/tree/master/packages/wigo-uikit/compare/@wigoswap/wigo-uikit@1.39.1...@wigoswap/wigo-uikit@1.39.2) (2024-06-29)
 
 
