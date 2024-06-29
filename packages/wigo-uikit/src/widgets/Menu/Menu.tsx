@@ -112,7 +112,7 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
         <Flex>
           <Logo isDark={isDark} href={homeLink?.href ?? "/"} />
           {!isMobile && (
-            <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" mt="4px" />
+            <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" mt="0" />
           )}
         </Flex>
         <Flex alignItems="center">
