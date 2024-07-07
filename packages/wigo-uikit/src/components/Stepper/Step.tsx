@@ -9,9 +9,9 @@ const getStepNumberFontColor = ({ theme, status }: StatusProps) => {
     return theme.colors.success;
   }
   if (status === "current") {
-    return theme.colors.invertedContrast;
+    return theme.colors.wigoWhite;
   }
-  return theme.colors.textDisabled;
+  return theme.colors.wigoWhite;
 };
 
 const StyledStep = styled(Flex)`
